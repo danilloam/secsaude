@@ -1,0 +1,240 @@
+<div class="row">
+
+  <!-- USUÁRIOS -->
+  <div class="col-md-3">
+    <div class="card">
+      <div class="card-header"><strong>Usuários</strong></div>
+      <div class="card-body p-0">
+        <div id="users" style="height:500px; overflow:auto;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHAT -->
+  <div class="col-md-9">
+    <div class="card direct-chat direct-chat-primary">
+
+      <div class="card-header">
+        <h3 id="chatTitle">Chat</h3>
+      </div>
+
+      <div class="card-body">
+        <div id="chatBox" style="height:420px; overflow:auto; padding:10px;"></div>
+      </div>
+<div id="lista-users"></div>
+       <div class="card-footer">
+
+        <form id="formChat">
+          <div class="input-group">
+
+            <input type="text" id="msg" class="form-control" placeholder="Mensagem...">
+
+            <input type="file" id="file" accept="image/*,audio/*">
+
+            <button class="btn btn-primary">Enviar</button>
+
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="./dist/js/direct-chat.min.js"></script>
+	
+<script>
+let user = null;
+let offset = 0;
+let loading = false;
+let lastCount = 0;
+
+/**
+ * =====================
+ * USUÁRIOS POR DISTRITO
+ * =====================
+ */
+async function loadUsers() {
+
+  const res = await fetch('users.php');
+  const data = await res.json();
+
+  const el = document.getElementById('users');
+  if (!el) return;
+
+  el.innerHTML = '';
+
+  data.forEach(u => {
+
+    el.innerHTML += `
+      <div onclick="selectUser(${u.id}, '${u.nome}')"
+           style="padding:10px; cursor:pointer; border-bottom:1px solid #eee;">
+        ${u.online == 1 ? '🟢' : '⚪'} ${u.nome}
+      </div>
+    `;
+  });
+}
+
+/**
+ * =====================
+ * SELECIONAR USUÁRIO
+ * =====================
+ */
+function selectUser(id, nome) {
+
+  user = id;
+  offset = 0;
+
+  document.getElementById('chatTitle').innerText = nome;
+
+  loadMessages(true);
+}
+
+/**
+ * =====================
+ * MENSAGENS
+ * =====================
+ */
+async function loadMessages(reset = false) {
+
+  if (!user) return;
+
+  const res = await fetch(`chat_get.php?user=${user}&offset=${offset}`);
+  const data = await res.json();
+
+  const box = document.getElementById('chatBox');
+  if (!box) return;
+
+  if (reset) box.innerHTML = '';
+
+  data.forEach(m => {
+
+    const mine = m.from_id == <?= (int)$_SESSION['user']['id'] ?>;
+
+    let content = '';
+
+    if (m.type === 'text') content = m.mensagem;
+
+    if (m.type === 'image') {
+      content = `<img src="${m.file_path}" style="max-width:200px;">`;
+    }
+
+    if (m.type === 'audio') {
+      content = `<audio controls src="${m.file_path}"></audio>`;
+    }
+
+    const check = m.read_at ? '✓✓' : '✓';
+
+    box.innerHTML += `
+      <div style="text-align:${mine ? 'right' : 'left'}; margin:5px;">
+        <div style="display:inline-block; padding:8px; border-radius:10px;
+                    background:${mine ? '#d1ecf1' : '#eee'}">
+
+          ${content}
+          <div style="font-size:10px;">${check}</div>
+
+        </div>
+      </div>
+    `;
+  });
+
+  box.scrollTop = box.scrollHeight;
+
+  offset += 20;
+}
+
+/**
+ * =====================
+ * SCROLL INFINITO
+ * =====================
+ */
+document.getElementById('chatBox')?.addEventListener('scroll', async function () {
+
+  if (this.scrollTop === 0 && !loading) {
+    loading = true;
+    await loadMessages(false);
+    loading = false;
+  }
+});
+
+/**
+ * =====================
+ * ENVIAR MENSAGEM
+ * =====================
+ */
+document.getElementById('formChat')?.addEventListener('submit', async e => {
+
+  e.preventDefault();
+
+  if (!user) return;
+
+  const form = new FormData();
+
+  form.append('mensagem', document.getElementById('msg').value);
+  form.append('para', user);
+
+  const file = document.getElementById('file').files[0];
+  if (file) form.append('file', file);
+
+  await fetch('chat_send.php', {
+    method: 'POST',
+    body: form
+  });
+
+  document.getElementById('msg').value = '';
+  document.getElementById('file').value = '';
+
+  loadMessages(true);
+});
+
+/**
+ * =====================
+ * NOTIFICAÇÕES
+ * =====================
+ */
+function notify(msg) {
+
+  if (Notification.permission === "granted") {
+    new Notification("Nova mensagem", { body: msg });
+  }
+}
+
+/**
+ * =====================
+ * CHECAR NOVAS MENSAGENS
+ * =====================
+ */
+async function checkNew() {
+
+  if (!user) return;
+
+  const res = await fetch(`chat_get.php?user=${user}`);
+  const data = await res.json();
+
+  if (data.length > lastCount) {
+    notify("Nova mensagem recebida");
+    loadMessages(true);
+  }
+
+  lastCount = data.length;
+}
+
+/**
+ * =====================
+ * INIT
+ * =====================
+ */
+if ('Notification' in window) {
+  Notification.requestPermission();
+}
+
+loadUsers();
+setInterval(loadUsers, 5000);
+setInterval(checkNew, 3000);
+</script>
