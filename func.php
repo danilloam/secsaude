@@ -1505,3 +1505,48 @@ function consolidarAtendimentos($ano, $mes, $tipo, $filtros = [])
 function renderCardBody($item) {
     include 'partials/card_body.php';
 }
+function numeroParaRomano($numero) {
+    if ($numero <= 0 || $numero >= 4000) {
+        return ''; // romano clássico vai até 3999
+    }
+
+    $mapa = [
+        1000 => 'M',
+        900  => 'CM',
+        500  => 'D',
+        400  => 'CD',
+        100  => 'C',
+        90   => 'XC',
+        50   => 'L',
+        40   => 'XL',
+        10   => 'X',
+        9    => 'IX',
+        5    => 'V',
+        4    => 'IV',
+        1    => 'I'
+    ];
+
+    $romano = '';
+
+    foreach ($mapa as $valor => $letra) {
+        while ($numero >= $valor) {
+            $romano .= $letra;
+            $numero -= $valor;
+        }
+    }
+
+    return $romano;
+}
+function normalizar($texto) {
+    $texto = mb_strtolower($texto);
+    $texto = str_replace(
+        ['ã','á','à','â','é','ê','í','ó','ô','õ','ú','ç'],
+        ['a','a','a','a','e','e','i','o','o','o','u','c'],
+        $texto
+    );
+    return trim($texto);
+}
+function tempoParaHoras($tempo) {
+    list($h, $m, $s) = explode(':', $tempo);
+    return $h + ($m / 60) + ($s / 3600);
+}

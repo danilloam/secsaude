@@ -49,8 +49,37 @@
                   <p>Atendimentos</p>
                 </a>
               </li>
+			  <li class="nav-item" >
+                    <a href="#" class="nav-link" data-bs-toggle="tooltip" data-bs-title="Componente Qualidade">
+                      <i class="nav-icon bi bi bi-star"></i>
+                      <p >
+                        Saúde Digital
+                        <i class="nav-arrow bi bi-chevron-right"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                      <li class="nav-item">
+                        <a href="interdicoes.php" class="nav-link">
+                          <i class="nav-icon bi bi-circle"></i>
+                          <p>Interdi&ccedil;&otilde;es</p>
+                        </a>
+                      </li>
+					  <li class="nav-item">
+                        <a href="falecomsuaequipe.php" class="nav-link">
+                          <i class="nav-icon bi bi-circle"></i>
+                          <p>Fale com sua Equipe</p>
+                        </a>
+                      </li>
+                     <!-- <li class="nav-item">
+                        <a href="./examples/register-v2.html" class="nav-link">
+                          <i class="nav-icon bi bi-circle"></i>
+                          <p>Register</p>
+                        </a>
+                      </li> -->
+                    </ul>
+                  </li>
 			  		
-               			  <li class="nav-item">
+               			<!--  <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="nav-icon bi bi-coin"></i>
                   <p>
@@ -127,10 +156,10 @@
                         </a>
                       </li>
                     </ul>
-                  </li>
+                  </li> 
               
                 </ul>
-              </li>
+              </li> -->
 			   <!--
               <li class="nav-item">
                 <a href="#" class="nav-link">

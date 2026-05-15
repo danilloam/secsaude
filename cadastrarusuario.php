@@ -1,5 +1,5 @@
 <?php
-require 'config.php';
+require_once __DIR__ . '/CORE/bootstrap.php';
 
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
