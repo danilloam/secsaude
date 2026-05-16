@@ -12,7 +12,7 @@ Sistema web desenvolvido em **PHP** para gerenciamento de dados da saúde públi
 - 📅 Registro de atendimentos
 - 🏠 Registro de visitas domiciliares
 - 💬 Chat interno entre usuários
-- 📄 Geração de relatórios (incluindo folha)
+- 📄 Geração de relatórios
 - 🔐 Sistema de autenticação (login/logout)
 - 📈 Integração com dados externos (Google Sheets / JSON)
 - ⚡ Cache de dados para alta performance
@@ -30,14 +30,13 @@ Sistema web desenvolvido em **PHP** para gerenciamento de dados da saúde públi
 
 ---
 
-## 📂 Estrutura do projeto
-/CORE → Configurações, conexão e cache
-/security → Autenticação e proteção de sessão
-/views → Telas e dashboards
-/cache → Cache de dados JSON
-/dist → Interface AdminLTE (frontend)
-/folha → Geração de relatórios
-/partials → Componentes reutilizáveis
+### 📂 Estrutura do projeto
+- /CORE → Configurações, conexão e cache
+- /security → Autenticação e proteção de sessão
+- /views → Telas e dashboards
+- /cache → Cache de dados JSON
+- /dist → Interface AdminLTE (frontend)
+- /partials → Componentes reutilizáveis
 
 
 ---
