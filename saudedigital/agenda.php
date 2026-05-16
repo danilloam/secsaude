@@ -89,11 +89,17 @@ asort($listaUnidades);
 <div class="app-wrapper">
 
     <!-- Navbar -->
-    <nav class="app-header navbar navbar-expand bg-primary navbar-dark">
-        <div class="container-fluid">
-            <span class="navbar-brand">🏥 Gestão de Agenda</span>
-        </div>
-    </nav>
+<nav class="app-header navbar navbar-expand bg-primary navbar-dark">
+    <div class="container-fluid d-flex justify-content-between">
+
+        <span class="navbar-brand">🏥 Gestão de Agenda</span>
+
+        <a href="index.php" class="btn btn-light btn-sm">
+            ⬅ Voltar ao Menu
+        </a>
+
+    </div>
+</nav>
 
     <main class="app-main p-3">
         <div class="container-fluid">

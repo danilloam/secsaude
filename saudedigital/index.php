@@ -1,220 +1,135 @@
-<?php 
+<?php
+session_start();
 
-$sheet = "19jNMkSYFpHhyEJQJPxa3MijpVwUOZwoyBvyYhNnzdLE";
-$aba   = "Demandas";
-$usFiltro = $_GET['us'] ?? '';
-$url = "https://opensheet.elk.sh/{$sheet}/" . urlencode($aba);
-$json = @file_get_contents($url);
+$usuarios = [
+    "andreza" => "123456",
+    "joao"  => "123456",
+    "maria" => "123456",
+    "gestor" => "123456"
+];
 
-if ($json === false) die("Erro ao acessar planilha");
-
-$dados = json_decode($json, true);
-if (!$dados) die("Erro JSON");
-
-// ================= FILTROS
-$dsFiltro = $_GET['ds'] ?? '';
-$dataInicioFiltro = $_GET['data_inicio'] ?? '';
-$dataFimFiltro = $_GET['data_fim'] ?? '';
-
-// ================= FUNÇÃO DATA
-function formatarData($data) {
-    $d = explode(',', $data)[0] ?? '';
-    return DateTime::createFromFormat('d/m/Y', trim($d));
+// 🔓 LOGOUT
+if (isset($_GET['logout'])) {
+    session_destroy();
+    header("Location: index.php");
+    exit;
 }
 
-// ================= PROCESSAMENTO
-$agrupado = [];
-$total = $atendido = $naoAtendido = 0;
+// 🔐 LOGIN
+$erro = '';
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $user = $_POST['usuario'] ?? '';
+    $pass = $_POST['senha'] ?? '';
 
-foreach ($dados as $item) {
-
-    $ds = $item['ds'] ?? '';
-    $us = $item['us'] ?? '';
-    $status = trim(mb_strtolower($item['situação'] ?? ''));
-
-    // filtro DS
-    if ($dsFiltro && $ds !== $dsFiltro) continue;
-	// filtro Unidade
-    if ($usFiltro && $us !== $usFiltro) continue;
-	
-    // filtro período
-    $data = formatarData($item['dataInicio']);
-    if ($dataInicioFiltro && $data && $data < new DateTime($dataInicioFiltro)) continue;
-	if ($dataFimFiltro && $data && $data > new DateTime($dataFimFiltro)) continue;
-
-    // contadores
-    $total++;
-    ($status === 'atendido') ? $atendido++ : $naoAtendido++;
-
-    // converter tempo (virgula -> ponto)
-    $tempo = floatval(str_replace(',', '.', $item['tempo_media_de_resposta'] ?? 0));
-
-    if (!isset($agrupado[$ds][$us])) {
-        $agrupado[$ds][$us] = [
-            'dados' => [],
-            'tempo_total' => 0,
-            'qtd' => 0
-        ];
-    }
-
-    $agrupado[$ds][$us]['dados'][] = $item;
-    $agrupado[$ds][$us]['tempo_total'] += $tempo;
-    $agrupado[$ds][$us]['qtd']++;
+    if (isset($usuarios[$user]) && $usuarios[$user] === $pass) {
+    $_SESSION['logado'] = true;
+    $_SESSION['usuario'] = $user;
+} else {
+    $erro = "Usuário ou senha inválidos!";
 }
-$listaUS = [];
-
-foreach ($dados as $item) {
-    $ds = $item['ds'] ?? '';
-    $us = $item['us'] ?? '';
-
-    // respeita filtro de DS
-    if ($dsFiltro && $ds !== $dsFiltro) continue;
-
-    $listaUS[] = $us;
 }
 
-$listaUS = array_unique($listaUS);
-sort($listaUS);
-$listaDS = array_unique(array_column($dados, 'ds'));
-sort($listaDS);
+// 🔒 PROTEÇÃO
+$logado = $_SESSION['logado'] ?? false;
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-<meta charset="utf-8">
-<title>Dashboard Atendimentos</title>
+<meta charset="UTF-8">
+<title>Sistema - Distrito Sanitário</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
-body { font-family: Arial; background:#f4f6f9; padding:20px; }
-
+body {
+    background: #f4f6f9;
+}
 .card {
-    display:inline-block;
-    padding:15px;
-    margin:5px;
-    background:#fff;
-    border-radius:8px;
-    box-shadow:0 2px 5px rgba(0,0,0,0.1);
-    width:200px;
-    text-align:center;
+    border-radius: 10px;
 }
-
-h2 { background:#2f4050;color:#fff;padding:10px; }
-h3 { background:#1ab394;color:#fff;padding:8px; }
-
-table { width:100%; border-collapse: collapse; background:#fff; margin-bottom:20px;}
-th,td { border:1px solid #ddd; padding:6px; font-size:12px;}
-th { background:#eee; }
-
-.ok { color:green; font-weight:bold; }
-.nok { color:red; font-weight:bold; }
-
-.filtros { background:#fff;padding:10px;margin-bottom:15px;border-radius:8px;}
+.menu-btn {
+    height: 100px;
+    font-size: 18px;
+    font-weight: bold;
+}
 </style>
-
-<script>
-function exportarPDF() {
-    window.print();
-}
-</script>
 
 </head>
 <body>
 
-<h1>📊 Dashboard de Atendimentos</h1>
+<div class="container mt-5">
 
-<!-- FILTROS -->
-<form class="filtros">
-    DS:
-    <select name="ds" onchange="this.form.us.value=''; this.form.submit()">
-        <option value="">Todos</option>
-        <?php foreach($listaDS as $ds): ?>
-            <option value="<?= $ds ?>" <?= ($dsFiltro==$ds?'selected':'') ?>><?= $ds ?></option>
-        <?php endforeach; ?>
-    </select>
-	US:
-	<select name="us" onchange="this.form.submit()">
-		<option value="">Todas</option>
-		<?php foreach($listaUS as $us): ?>
-			<option value="<?= $us ?>" <?= ($usFiltro==$us?'selected':'') ?>>
-				<?= $us ?>
-			</option>
-		<?php endforeach; ?>
-	</select>
-    Data início:
-    <input type="date" name="data_inicio" value="<?= $dataInicioFiltro ?>">
+<?php if (!$logado): ?>
 
-    Data fim:
-    <input type="date" name="data_fim" value="<?= $dataFimFiltro ?>">
+    <!-- 🔐 LOGIN -->
+    <div class="row justify-content-center">
+        <div class="col-md-4">
 
-    <button type="submit">Filtrar</button>
-    <button type="button" onclick="exportarPDF()">Exportar PDF</button>
-</form>
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white text-center">
+                    <h4>🔐 Login do Sistema</h4>
+                </div>
 
-<!-- CARDS -->
-<div>
-    <div class="card">
-        <h3>Total</h3>
-        <h2><?= $total ?></h2>
+                <div class="card-body">
+
+                    <?php if ($erro): ?>
+                        <div class="alert alert-danger"><?= $erro ?></div>
+                    <?php endif; ?>
+
+                    <form method="POST">
+                        <div class="mb-3">
+                            <label>Usuário</label>
+                            <input type="text" name="usuario" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Senha</label>
+                            <input type="password" name="senha" class="form-control" required>
+                        </div>
+
+                        <button class="btn btn-primary w-100">Entrar</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
     </div>
 
-    <div class="card">
-        <h3>Atendidos</h3>
-        <h2><?= $atendido ?></h2>
+<?php else: ?>
+
+    <!-- 🏠 MENU -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3>🏥 Sistema Distrito Sanitário</h3>
+        <a href="?logout=1" class="btn btn-danger">Sair</a>
     </div>
 
-    <div class="card">
-        <h3>Não Atendidos</h3>
-        <h2><?= $naoAtendido ?></h2>
+    <div class="row g-3">
+
+        <div class="col-md-4">
+            <a href="agenda.php" class="btn btn-primary w-100 menu-btn">
+                📊 Agenda por Unidade
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="falecomsuaequipe.php" class="btn btn-success w-100 menu-btn">
+                💬 Fale com sua Equipe
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="interdicoes.php" class="btn btn-warning w-100 menu-btn">
+                🚧 Interdições
+            </a>
+        </div>
+
     </div>
+
+<?php endif; ?>
+
 </div>
-
-<hr>
-
-<!-- TABELAS -->
-<?php foreach ($agrupado as $ds => $unidades): ?>
-
-    <h2><?= $ds ?></h2>
-
-    <?php foreach ($unidades as $us => $info): 
-        $media = $info['qtd'] ? ($info['tempo_total'] / $info['qtd']) : 0;
-    ?>
-
-        <h3><?= $us ?> | Média resposta: <?= number_format($media,2,',','.') ?> min</h3>
-
-        <table>
-            <tr>
-                <th>Data</th>
-                <th>Usuário</th>
-                <th>Atendente</th>
-                <th>Duração</th>
-                <th>Tempo Resp.</th>
-                <th>Status</th>
-				<th>Chat</th>
-            </tr>
-
-            <?php foreach ($info['dados'] as $r): 
-                $status = trim(mb_strtolower($r['situação']));
-                $classe = ($status === 'atendido') ? 'ok' : 'nok';
-            ?>
-            <tr>
-                <td><?= $r['dataInicio'] ?></td>
-                <td><?= $r['whatsappName'] ?></td>
-                <td><?= $r['atendente'] ?></td>
-                <td><?= $r['duracao_do_chat'] ?></td>
-                <td><?= $r['tempo_media_de_resposta'] ?></td>
-                <td class="<?= $classe ?>"><?= $r['situação'] ?></td>
-				<td>
-				<a href="<?= $r['roomId'] ?>" target="_blank">🔗 Abrir</a>
-				</td>
-            </tr>
-            <?php endforeach; ?>
-
-        </table>
-
-    <?php endforeach; ?>
-
-<?php endforeach; ?>
 
 </body>
 </html>
