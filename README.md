@@ -139,7 +139,10 @@ O sistema utiliza cache em JSON para melhorar desempenho:
 
 /cache
 /CORE/cache
-📸 Screenshots
+
+---
+
+### 📸 Screenshots
 
 Adicione imagens do sistema:
 
