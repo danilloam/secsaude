@@ -1,172 +1,154 @@
-# [AdminLTE - Bootstrap 5 Admin Dashboard](https://adminlte.io)
+# 🏥 Sistema de Gestão de Saúde - Distrito Sanitário
 
-[![npm version](https://img.shields.io/npm/v/admin-lte/latest.svg)](https://www.npmjs.com/package/admin-lte)
-[![Packagist](https://img.shields.io/packagist/v/almasaeed2010/adminlte.svg)](https://packagist.org/packages/almasaeed2010/adminlte)
-[![cdn version](https://data.jsdelivr.com/v1/package/npm/admin-lte/badge)](https://www.jsdelivr.com/package/npm/admin-lte)
-[![Discord Invite](https://img.shields.io/badge/discord-join%20now-green)](https://discord.gg/jfdvjwFqfz)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1277b36b-08f3-43fa-826a-4b4d24614b3c/deploy-status)](https://app.netlify.com/sites/adminlte-v4/deploys)
+Sistema web desenvolvido em PHP para gerenciamento de dados de saúde, incluindo atendimentos, visitas, equipes e relatórios, com foco em organização por distrito sanitário.
 
-**AdminLTE** is a fully responsive administration template. Based on **[Bootstrap 5](https://getbootstrap.com/)** framework and also the JavaScript plugins.
-Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops.
+---
 
-## What's New in v4.0.0-rc7
+## 🚀 Funcionalidades
 
-**Bug Fixes, Refactors & Documentation** - Major plugin refactors, complete JS documentation, and new features:
+- 📊 Dashboard com dados consolidados
+- 👥 Gestão de usuários
+- 🏥 Controle por equipe e unidade
+- 📅 Registro de atendimentos
+- 🏠 Registro de visitas
+- 💬 Chat interno entre usuários
+- 📄 Geração de relatórios (incluindo folha)
+- 🔐 Sistema de autenticação (login/logout)
+- 📈 Integração com dados externos (Google Sheets / JSON)
+- ⚡ Cache de dados para performance
 
-- **Layout & PushMenu Refactors** - Single-instance architecture, proper responsive logic, configurable via data attributes
-- **Sidebar Without Hover** - New `sidebar-without-hover` class to keep collapsed sidebar from expanding on hover
-- **Complete JS Documentation** - All 7 JavaScript components now fully documented
-- **Astro 6.0.0** - Upgraded to latest Astro with Vite 7 and Shiki 4
-- **Bug Fixes** - Fixed footer with layout-fixed, mobile scroll chaining, print layout, modal escape key, pagination borders
+---
 
-**Key Improvements:**
+## 🛠️ Tecnologias utilizadas
 
-- Fixed footer now works correctly with `layout-fixed` (#5805)
-- Sidebar no longer causes page scroll chaining on mobile (#5864)
-- Print layout shows both sidebar and content (#5996)
-- Sidebar persistence is now opt-in via `data-enable-persistence="true"` (**breaking change**)
-- All dependencies updated to latest versions
+- PHP (backend principal)
+- MySQL (banco de dados)
+- JavaScript
+- HTML5 / CSS3
+- AdminLTE (interface)
+- JSON (cache e integração de dados)
 
-**Install the latest:**
+---
+
+## 📂 Estrutura do projeto
+/CORE → Configurações, conexão e cache
+/security → Autenticação e proteção de sessão
+/views → Telas e dashboards
+/cache → Cache de dados JSON
+/dist → Interface AdminLTE (frontend)
+/folha → Geração de relatórios
+/partials → Componentes reutilizáveis
+
+
+## ⚙️ Como executar o projeto
+
+### 🔧 Pré-requisitos
+
+- PHP 7.4+
+- MySQL
+- Servidor local (XAMPP, WAMP, Laragon)
+
+---
+
+### ▶️ Instalação
+
 ```bash
-npm install admin-lte@4.0.0-rc7
-```
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
-See the [CHANGELOG.md](CHANGELOG.md) for complete details.
+# Acesse a pasta
+cd seu-repositorio
 
-## Looking for Premium Templates?
+🗄️ Banco de dados
+Como não conseguimos fazer os ajustes pelo banco de dados esus, utilizei um banco de dados relacional para colocar as configurações de metas, quais unidades pertencem a determinado distrito e com isso ao pegar as informações do banco esus ele valida e vai ajustando o sistema ao que precisa.
 
-AdminLTE.io just opened a new premium templates page. Hand picked to ensure the best quality and the most affordable
-prices. Visit <https://adminlte.io/premium> for more information.
+Crie um banco no MySQL
+Importe o arquivo:
+/CORE/banco/secsauderecife.sql
 
-!["AdminLTE Presentation"](https://adminlte.io/AdminLTE3.png "AdminLTE Presentation")
+⚙️ Configuração
 
-**AdminLTE** has been carefully coded with clear comments in all of its JS, SCSS and HTML files.
-SCSS has been used to increase code customizability.
+Edite o arquivo:
 
-## Quick start
+CORE/.ENV
 
-### Development
+Configure:
 
-To start developing with AdminLTE:
+Host do banco
+Usuário
+Senha
+Nome do banco
 
-1. **Install dependencies:** `npm install`
-2. **Start development server:** `npm start` *(opens browser at http://localhost:3000)*
-3. **Start coding!** Files auto-compile and refresh on changes
+▶️ Executar
 
-### Production Build
+Coloque o projeto na pasta do servidor:
 
-To build for production:
+XAMPP → htdocs
+WAMP → www
 
-1. **Full production build:** `npm run production` *(includes linting and optimization)*
-2. **Quick build:** `npm run build` *(faster for development/testing)*
+Acesse:
 
-### Available Scripts
+http://localhost/seu-projeto
 
-- `npm start` - Start development server with file watching
-- `npm run build` - Build all assets for development
-- `npm run production` - Full production build with linting and bundlewatch
-- `npm run lint` - Run all linters (JS, CSS, docs, lockfile)
-- `npm run css` - Build CSS only
-- `npm run js` - Build JavaScript only
+🔐 Autenticação
 
-## Browser Support
+O sistema possui:
 
-AdminLTE supports all modern browsers with the latest Bootstrap 5.3.8:
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+Login (/security/login.php)
+Controle de sessão (session_guard.php)
+Logout
 
-## Platform Support
+💬 Módulo de Chat
 
-AdminLTE v4 build scripts work cross-platform:
-- **Windows** - Command Prompt, PowerShell, Git Bash
-- **macOS** - Terminal, iTerm2
-- **Linux** - Bash, Zsh, and other Unix shells
+Arquivos principais:
 
-All npm scripts use cross-platform utilities to ensure consistent behavior across different operating systems.
+chat_send.php
+chat_get.php
 
-## Security & Production Deployment
+Permite comunicação interna entre usuários.
 
-### Important Security Notice
+📊 Módulos principais
+atendimentos.php
+visitas.php
+equipe.php
+interdicoes.php
+users.php
 
-AdminLTE is a **UI template** - when deploying to production, follow these critical guidelines:
+⚡ Cache
 
-**What to Deploy:**
-- Only compiled production assets: `dist/js/adminlte.min.js` and `dist/css/adminlte.min.css`
-- Your application-specific files
+O sistema utiliza cache em JSON para melhorar performance:
 
-**What NOT to Deploy:**
-- `node_modules/` directory
-- Demo/example HTML files (index.html, index2.html, index3.html, etc.)
-- Source files (`src/` directory)
-- Development configuration files
+/cache
+/CORE/cache
 
-**CVE-2021-36471 Notice:**
-This CVE is **disputed** and does not represent a vulnerability in AdminLTE. It refers to demo pages being accessible when developers incorrectly deploy example files to production. AdminLTE v4 has a clear separation between development demos and production assets. See [SECURITY.md](SECURITY.md) for complete details.
+📸 Screenshots
 
-**Production Build:**
-```bash
-npm run production  # Builds optimized assets in dist/
-```
+Adicione prints do sistema aqui:
 
-For detailed security guidelines, authentication requirements, and best practices, see [SECURITY.md](SECURITY.md).
+![Dashboard](./caminho-da-imagem.png)
 
-## Sponsorship
+📌 Melhorias futuras
+ API REST
+ Melhorar UI/UX
+ Exportação avançada (PDF/Excel)
+ Controle de permissões por perfil
+ Logs de auditoria
 
-Support AdminLTE development by becoming a sponsor or donor.
+ 🤝 Contribuição
+Fork o projeto
+Crie uma branch (feature/minha-feature)
+Commit suas alterações
+Push
+Abra um Pull Request
 
-<p align="center">
-  <a href="https://github.com/sponsors/danny007in">
-    <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="Sponsor on GitHub" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.paypal.me/daniel007in">
-    <img src="https://img.shields.io/static/v1?label=Donate&message=%E2%9D%A4&logo=PayPal&color=%2300457C" alt="Donate via PayPal" />
-  </a>
-</p>
+🔒 Segurança
+Proteção de sessão implementada
+Controle de acesso por usuário
+Arquivo .env para variáveis sensíveis
+📄 Licença
 
-## Our Sponsors
+Este projeto está sob a licença MIT.
 
-<p align="center">
-  <a href="https://github.com/spizzo14"><img src="https://unavatar.io/github/spizzo14?fallback=https%3A%2F%2Fraw.githubusercontent.com%2FJamesIves%2Fgithub-sponsors-readme-action%2Fdev%2F.github%2Fassets%2Fplaceholder.png" width="50" height="50" alt="User avatar: spizzo14" loading="lazy" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/tomhappyblock"><img src="https://unavatar.io/github/tomhappyblock?fallback=https%3A%2F%2Fraw.githubusercontent.com%2FJamesIves%2Fgithub-sponsors-readme-action%2Fdev%2F.github%2Fassets%2Fplaceholder.png" width="50" height="50" alt="User avatar: tomhappyblock" loading="lazy" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/stefanmorderca"><img src="https://unavatar.io/github/stefanmorderca?fallback=https%3A%2F%2Fraw.githubusercontent.com%2FJamesIves%2Fgithub-sponsors-readme-action%2Fdev%2F.github%2Fassets%2Fplaceholder.png" width="50" height="50" alt="User avatar: stefanmorderca" loading="lazy" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/tito10047"><img src="https://unavatar.io/github/tito10047?fallback=https%3A%2F%2Fraw.githubusercontent.com%2FJamesIves%2Fgithub-sponsors-readme-action%2Fdev%2F.github%2Fassets%2Fplaceholder.png" width="50" height="50" alt="User avatar: tito10047" loading="lazy" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/sitchi"><img src="https://unavatar.io/github/sitchi?fallback=https%3A%2F%2Fraw.githubusercontent.com%2FJamesIves%2Fgithub-sponsors-readme-action%2Fdev%2F.github%2Fassets%2Fplaceholder.png" width="50" height="50" alt="User avatar: sitchi" loading="lazy" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/npreee"><img src="https://unavatar.io/github/npreee?fallback=https%3A%2F%2Fraw.githubusercontent.com%2FJamesIves%2Fgithub-sponsors-readme-action%2Fdev%2F.github%2Fassets%2Fplaceholder.png" width="50" height="50" alt="User avatar: npreee" loading="lazy" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/isaacmorais"><img src="https://unavatar.io/github/isaacmorais?fallback=https%3A%2F%2Fraw.githubusercontent.com%2FJamesIves%2Fgithub-sponsors-readme-action%2Fdev%2F.github%2Fassets%2Fplaceholder.png" width="50" height="50" alt="User avatar: isaacmorais" loading="lazy" /></a>&nbsp;&nbsp;
-</p>
+👨‍💻 Autor
 
-<p align="center">
-  <a href="https://github.com/sponsors/danny007in">Your avatar here? Become a sponsor</a>
-</p>
-
-## Contributing
-
-- Highly welcome.
-- For your extra reference check [AdminLTE v4 Contribution Guide](https://github.com/ColorlibHQ/AdminLTE#contributing)
-- First thing first, you should have bit knowledge about NodeJS.
-- Github Knowledge.
-- Install NodeJS LTS version.
-- Clone this Repository to your machine and change to `master` branch.
-- Go to Cloned Folder.
-- In cli/bash run `npm install` it will install dependency from `package.json`.
-- After installation completes, run `npm start`
-- Cool, Send your changes in PR to `master` branch.
-
-
-## License
-
-AdminLTE is an open source project by [AdminLTE.io](https://adminlte.io) that is licensed under [MIT](https://opensource.org/licenses/MIT).
-AdminLTE.io reserves the right to change the license of future releases.
-
-## Image Credits
-
-- [Pixeden](http://www.pixeden.com/psd-web-elements/flat-responsive-showcase-psd)
-- [Graphicsfuel](https://www.graphicsfuel.com/2013/02/13-high-resolution-blur-backgrounds/)
-- [Pickaface](https://pickaface.net/)
-- [Unsplash](https://unsplash.com/)
-- [Uifaces](http://uifaces.com/)
-- [Unavatar](https://unavatar.io/)
+Desenvolvido por Danillo Almeida Marques
