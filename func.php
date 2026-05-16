@@ -202,7 +202,7 @@ switch ($agruparPor) {
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
 function listarVisitasACS($ano, $mes, $filtros = []){
-
+try{
     $pdo = pgConnect();
 
     $whereExtra = "";
@@ -293,6 +293,18 @@ function listarVisitasACS($ano, $mes, $filtros = []){
     $stmt->execute($params);
 
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
+	} catch (PDOException $e) {
+
+        // PostgreSQL: permission denied
+        if ($e->getCode() === '42501') {
+            return 0;
+        }
+
+        // qualquer outro erro
+        return 0;
+    }
+
+
 }
 
 function contarEquipes($filtros = []){
@@ -361,6 +373,7 @@ function contarEquipes($filtros = []){
     return $resultado;
 }
 function contarCadastros($filtros = []){
+	  try {
     $pdo = pgConnect();
 
     $mapa = [
@@ -418,8 +431,20 @@ function contarCadastros($filtros = []){
     $stmt->execute();
 
     return (int) $stmt->fetchColumn();
+	} catch (PDOException $e) {
+
+        // PostgreSQL: permission denied
+        if ($e->getCode() === '42501') {
+            return 0;
+        }
+
+        // qualquer outro erro
+        return 0;
+    }
+
 }
 function contarCadastrosDesatualizados($filtros = []){
+	try{
     $pdo = pgConnect();
 
     $mapa = [
@@ -479,8 +504,20 @@ $where[] =  "dt_ultima_atualizacao_cidadao <= CURRENT_DATE - INTERVAL '2 years'"
     $stmt->execute();
 
     return (int) $stmt->fetchColumn();
+	} catch (PDOException $e) {
+
+        // PostgreSQL: permission denied
+        if ($e->getCode() === '42501') {
+            return 0;
+        }
+
+        // qualquer outro erro
+        return 0;
+    }
+
 }
 function listarAtendimentos($ano, $mes, $filtros = [], $agruparPor = 'unidade'){
+	try{
     $whereExtra = "";
     $periodo = gerarPeriodo($ano, $mes);
 	$sqlSemanas = montarSemanasSQL($periodo,'ati');
@@ -598,6 +635,16 @@ if (!empty($filtros['equipe'])) {
  
 
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
+} catch (PDOException $e) {
+
+        // PostgreSQL: permission denied
+        if ($e->getCode() === '42501') {
+            return 0;
+        }
+
+        // qualquer outro erro
+        return 0;
+    }
 }
 function listarAtendimentosCnes($ano, $mes, $filtros = [], $agruparPor = 'unidade')
 {

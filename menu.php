@@ -49,8 +49,8 @@
                   <p>Atendimentos</p>
                 </a>
               </li>
-			  <li class="nav-item" >
-                    <a href="#" class="nav-link" data-bs-toggle="tooltip" data-bs-title="Componente Qualidade">
+			  <li class="nav-item <?php if($page==4 || $page==5 ||$page==6){echo "menu-open";}?>">
+                    <a href="#" class="nav-link" data-bs-toggle="tooltip" data-bs-title="Análise da Saúde Digital">
                       <i class="nav-icon bi bi bi-star"></i>
                       <p >
                         Saúde Digital
@@ -59,15 +59,21 @@
                     </a>
                     <ul class="nav nav-treeview">
                       <li class="nav-item">
-                        <a href="interdicoes.php" class="nav-link">
+                        <a href="interdicoes.php" class="nav-link  <?php if($page==4){echo"active";}?>">
                           <i class="nav-icon bi bi-circle"></i>
                           <p>Interdi&ccedil;&otilde;es</p>
                         </a>
                       </li>
 					  <li class="nav-item">
-                        <a href="falecomsuaequipe.php" class="nav-link">
+                        <a href="falecomsuaequipe.php" class="nav-link  <?php if($page==5){echo"active";}?>">
                           <i class="nav-icon bi bi-circle"></i>
                           <p>Fale com sua Equipe</p>
+                        </a>
+                      </li>
+					  <li class="nav-item">
+                        <a href="agenda.php" class="nav-link  <?php if($page==6){echo"active";}?>">
+                          <i class="nav-icon bi bi-circle"></i>
+                          <p>Agenda Conecta</p>
                         </a>
                       </li>
                      <!-- <li class="nav-item">

@@ -1,6 +1,6 @@
 <?php
 
-$page = 6;
+$page = 5;
 
 require_once __DIR__ . '/CORE/config.php';
 require_once __DIR__ . '/security/session_guard.php';
@@ -548,7 +548,7 @@ sort($listaDS);
 		<div class="row">
 			 <div class="col-12">
                 <div class="card mb-4">
-				<div class="card card-primary collapsed-card">
+				<div class="card card-outline card-primary ">
                   <div class="card-header border-0">
                     <div class="card-header">
                       <h3 class="card-title"><?= $us ?> | Média resposta: <?= $media ?> min</h3>

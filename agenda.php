@@ -1,6 +1,6 @@
 <?php
 
-$page = 4;
+$page = 6;
 
 require_once __DIR__ . '/CORE/config.php';
 require_once __DIR__ . '/security/session_guard.php';
@@ -10,266 +10,65 @@ if (!isset($_SESSION['user']['id'])) {
     header("Location: login.php");
     exit;
 }
-// ================= CNES (1 ou mais)
 
-   if (!empty($_SESSION['user']['unidade_id'])) {
+// 🔧 CONFIG
+$sheet = "1q1pMYDn_KOWtur-zGL4VuvIsCkL6MnBMujUEOPkIyLw";
+$aba   = "BD_Agenda_Configurada";
+$distritoFiltro = $_SESSION['user']['distrito_id'];
 
-	$unidadesDistrito = UnidadeporId($_SESSION['user']['unidade_id']);
+// 🔗 URL
+$url = "https://opensheet.elk.sh/{$sheet}/" . urlencode($aba);
 
-}else{
-	$unidadesDistrito = listarUnidadesDistrito($_SESSION['user']['distrito_id']);
- 
+// 📥 BUSCA
+$json = @file_get_contents($url);
+$dados = json_decode($json, true);
 
-}
-$cnesDistrito = removerZerosEsquerdaArray($unidadesDistrito);
-
-/*
-|--------------------------------------------------------------------------
-| CONFIG GOOGLE SHEETS
-|--------------------------------------------------------------------------
-*/
-
-$sheet = '1q1pMYDn_KOWtur-zGL4VuvIsCkL6MnBMujUEOPkIyLw';
-$aba   = 'Interdições';
-
-
-/*
-|--------------------------------------------------------------------------
-| CNES DO DISTRITO
-|--------------------------------------------------------------------------
-|
-| Futuramente pode vir do banco
-|
-*/
-
-
-/*
-|--------------------------------------------------------------------------
-| MELHORA PERFORMANCE DE BUSCA
-|--------------------------------------------------------------------------
-*/
-
-$cnesDistrito = array_flip($cnesDistrito);
-
-
-/*
-|--------------------------------------------------------------------------
-| CARREGA DADOS
-|--------------------------------------------------------------------------
-*/
-
-$dados = lerGoogleSheetTratado(
-    $sheet,
-    $aba,
-    $cnesDistrito
-);
-
-
-/*
-|--------------------------------------------------------------------------
-| RESUMO GERENCIAL
-|--------------------------------------------------------------------------
-*/
-
-$resumo = [
-    'total'        => count($dados),
-    'reforma'      => 0,
-    'sem_pec'      => 0,
-    'interditada'  => 0
-];
+$agrupado = [];
 
 foreach ($dados as $item) {
 
-    $situacao = $item['Situação'] ?? '';
-    $obs      = $item['Observação'] ?? '';
+    if ($item['Distrito'] != $distritoFiltro) continue;
+    if (empty($item['esp_descricao'])) continue;
 
-    if (str_contains($situacao, 'Reforma')) {
-        $resumo['reforma']++;
+    $cnes   = $item['cnes'];
+
+    // 🔥 NORMALIZA ESPECIALIDADE (evita duplicidade)
+    $esp = trim(mb_strtoupper($item['esp_descricao']));
+
+    $equipe = $item['equipe_nome'] ?: 'SEM EQUIPE';
+
+    if (!isset($agrupado[$cnes])) {
+        $agrupado[$cnes] = [
+            'info' => [
+                'nome_oficial' => $item['nome_oficial'],
+                'nome_popular' => $item['nome_popular'],
+            ],
+            'equipes' => []
+        ];
     }
 
-    if (str_contains($situacao, 'PEC')) {
-        $resumo['sem_pec']++;
+    if (!isset($agrupado[$cnes]['equipes'][$equipe])) {
+        $agrupado[$cnes]['equipes'][$equipe] = [
+            'equipe_ine' => $item['equipe_ine'],
+            'equipe_nome' => $equipe,
+            'especialidades' => []
+        ];
     }
 
-    if (
-        str_contains($situacao, 'Interditada') ||
-        str_contains($obs, 'Interditada')
-    ) {
-        $resumo['interditada']++;
+    if (!isset($agrupado[$cnes]['equipes'][$equipe]['especialidades'][$esp])) {
+        $agrupado[$cnes]['equipes'][$equipe]['especialidades'][$esp] = [];
     }
+
+    $agrupado[$cnes]['equipes'][$equipe]['especialidades'][$esp][] = [
+        'dia' => $item['dia_sem_descricao'],
+        'inicio' => $item['hora_inicio_turno'],
+        'fim' => $item['hora_fim_turno'],
+        'tempo' => (int)$item['Tempo Consulta'],
+        'minutos' => (int)$item['Disponível em Minutos'],
+        'vagas' => (int)$item['Qtd Atendimentos Disponíveis'],
+        'status' => $item['Slot > Disponível']
+    ];
 }
-
-
-/*
-|--------------------------------------------------------------------------
-| FUNÇÕES
-|--------------------------------------------------------------------------
-*/
-function removerZerosEsquerdaArray(array $dados): array
-{
-    return array_map(function ($valor) {
-
-        $valor = (string) $valor;
-
-        // remove espaços
-        $valor = trim($valor);
-
-        // remove zeros à esquerda
-        $valor = ltrim($valor, '0');
-
-        // evita vazio
-        if ($valor === '') {
-            $valor = '0';
-        }
-
-        return $valor;
-
-    }, $dados);
-}
-function lerGoogleSheetTratado(
-    $sheetId,
-    $aba = 'Aba1',
-    array $cnesDistrito = []
-) {
-
-    $url = "https://opensheet.elk.sh/{$sheetId}/" . urlencode($aba);
-
-    $json = @file_get_contents($url);
-
-    if (!$json) {
-        return [];
-    }
-
-    $dados = json_decode($json, true);
-
-    if (!is_array($dados)) {
-        return [];
-    }
-
-    $saida = [];
-
-    foreach ($dados as $linha) {
-
-        $nova = [];
-
-        foreach ($linha as $chave => $valor) {
-
-            /*
-            |--------------------------------------------------------------------------
-            | LIMPA CHAVE
-            |--------------------------------------------------------------------------
-            */
-
-            $chave = trim($chave);
-
-            /*
-            |--------------------------------------------------------------------------
-            | CORRIGE COLUNA UNDEFINED
-            |--------------------------------------------------------------------------
-            */
-
-            if (
-                $chave === '' ||
-                $chave === 'undefined'
-            ) {
-                $chave = 'Observação';
-            }
-
-            /*
-            |--------------------------------------------------------------------------
-            | TRATA VALORES
-            |--------------------------------------------------------------------------
-            */
-
-            if (
-                $valor === '' ||
-                $valor === null
-            ) {
-
-                $valor = null;
-
-            } else {
-
-                $valor = trim((string)$valor);
-            }
-
-            /*
-            |--------------------------------------------------------------------------
-            | TRATA CNES
-            |--------------------------------------------------------------------------
-            */
-
-            if ($chave === 'CNES') {
-
-                // remove zeros à esquerda
-                $valor = ltrim((string)($valor ?? ''), '0');
-
-                // evita vazio
-                if ($valor === '') {
-                    $valor = '0';
-                }
-            }
-
-            $nova[$chave] = $valor;
-        }
-
-        /*
-        |--------------------------------------------------------------------------
-        | VALIDA CNES
-        |--------------------------------------------------------------------------
-        */
-
-        $cnes = $nova['CNES'] ?? null;
-
-        // ignora sem CNES
-        if (
-            $cnes === null ||
-            $cnes === '' ||
-            $cnes === '-'
-        ) {
-            continue;
-        }
-
-        /*
-        |--------------------------------------------------------------------------
-        | FILTRA APENAS CNES DO DISTRITO
-        |--------------------------------------------------------------------------
-        */
-
-        if (!isset($cnesDistrito[$cnes])) {
-            continue;
-        }
-
-        $saida[] = $nova;
-    }
-
-    return $saida;
-}
-
-
-/*
-|--------------------------------------------------------------------------
-| BADGES
-|--------------------------------------------------------------------------
-*/
-
-function badgeSituacao($situacao)
-{
-    if (str_contains($situacao, 'Reforma')) {
-        return 'warning';
-    }
-
-    if (str_contains($situacao, 'PEC')) {
-        return 'info';
-    }
-
-    if (str_contains($situacao, 'Interditada')) {
-        return 'danger';
-    }
-
-    return 'secondary';
-}
-
 ?>
 
 
@@ -279,7 +78,7 @@ function badgeSituacao($situacao)
   <!--begin::Head-->
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Sistema de Disitro - </title>
+    <title>Sistema de Distrito - </title>
 
     <!--begin::Accessibility Meta Tags-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
@@ -360,6 +159,11 @@ function badgeSituacao($situacao)
           href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap4.min.css">
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<style>
+	.ok { color:green; font-weight:bold; }
+.nok { color:red; font-weight:bold; }
+.filtros { background:#fff;padding:10px;margin-bottom:15px;border-radius:8px;}
+	</style>
   </head>
   <!--end::Head-->
   <!--begin::Body-->
@@ -578,12 +382,12 @@ function badgeSituacao($situacao)
             <!--begin::Row-->
             <div class="row">
               <div class="col-sm-6">
-                <h3 class="mb-0">Dashboard</h3>
+                <h3 class="mb-0">Gestão de Agenda - Conecta Recife</h3>
               </div>
               <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-end">
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                  <li class="breadcrumb-item active" aria-current="page">Gestão Agenda</li>
                 </ol>
               </div>
             </div>
@@ -600,168 +404,151 @@ function badgeSituacao($situacao)
           <!--begin::Container-->
           <div class="container-fluid">
             <!--begin::Row-->
-	
-			 <div class="row">
-      <div class="col-lg-4 col-4">
-                <!--begin::Small Box Widget 1-->
-                <div class="small-box text-bg-primary">
-                  <div class="inner">
-                    <h3 id="totalCadastros"><?= $resumo['total'] ?></h3>
-
-                    <p>Total de Procedimentos</p>
-                  </div>
-				  
-				  <svg  class="small-box-icon"
-                    fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M320 64C355.3 64 384 92.7 384 128C384 163.3 355.3 192 320 192C284.7 192 256 163.3 256 128C256 92.7 284.7 64 320 64zM416 376C416 401 403.3 423 384 435.9L384 528C384 554.5 362.5 576 336 576L304 576C277.5 576 256 554.5 256 528L256 435.9C236.7 423 224 401 224 376L224 336C224 283 267 240 320 240C373 240 416 283 416 336L416 376zM160 96C190.9 96 216 121.1 216 152C216 182.9 190.9 208 160 208C129.1 208 104 182.9 104 152C104 121.1 129.1 96 160 96zM176 336L176 368C176 400.5 188.1 430.1 208 452.7L208 528C208 529.2 208 530.5 208.1 531.7C199.6 539.3 188.4 544 176 544L144 544C117.5 544 96 522.5 96 496L96 439.4C76.9 428.4 64 407.7 64 384L64 352C64 299 107 256 160 256C172.7 256 184.8 258.5 195.9 262.9C183.3 284.3 176 309.3 176 336zM432 528L432 452.7C451.9 430.2 464 400.5 464 368L464 336C464 309.3 456.7 284.4 444.1 262.9C455.2 258.4 467.3 256 480 256C533 256 576 299 576 352L576 384C576 407.7 563.1 428.4 544 439.4L544 496C544 522.5 522.5 544 496 544L464 544C451.7 544 440.4 539.4 431.9 531.7C431.9 530.5 432 529.2 432 528zM480 96C510.9 96 536 121.1 536 152C536 182.9 510.9 208 480 208C449.1 208 424 182.9 424 152C424 121.1 449.1 96 480 96z"/></svg>
-				  
-                 
-                  <a
-                    href="#"
-                    class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover"
-                  >
-                    Mais Informa&ccedil;&otilde;es<i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-                <!--end::Small Box Widget 1-->
-              </div>
-			  <div class="col-lg-4 col-4">
-                <!--begin::Small Box Widget 1-->
-                <div class="small-box text-bg-warning">
-                  <div class="inner">
-                    <h3 id="totaldesatualizado"><?= $resumo['reforma'] ?></h3>
-
-                    <p id="porcentagemdesatualizados">Em Reforma</p>
-			
-               
-                  </div>
-				  
-				  <svg  class="small-box-icon"
-                    fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M320 64C355.3 64 384 92.7 384 128C384 163.3 355.3 192 320 192C284.7 192 256 163.3 256 128C256 92.7 284.7 64 320 64zM416 376C416 401 403.3 423 384 435.9L384 528C384 554.5 362.5 576 336 576L304 576C277.5 576 256 554.5 256 528L256 435.9C236.7 423 224 401 224 376L224 336C224 283 267 240 320 240C373 240 416 283 416 336L416 376zM160 96C190.9 96 216 121.1 216 152C216 182.9 190.9 208 160 208C129.1 208 104 182.9 104 152C104 121.1 129.1 96 160 96zM176 336L176 368C176 400.5 188.1 430.1 208 452.7L208 528C208 529.2 208 530.5 208.1 531.7C199.6 539.3 188.4 544 176 544L144 544C117.5 544 96 522.5 96 496L96 439.4C76.9 428.4 64 407.7 64 384L64 352C64 299 107 256 160 256C172.7 256 184.8 258.5 195.9 262.9C183.3 284.3 176 309.3 176 336zM432 528L432 452.7C451.9 430.2 464 400.5 464 368L464 336C464 309.3 456.7 284.4 444.1 262.9C455.2 258.4 467.3 256 480 256C533 256 576 299 576 352L576 384C576 407.7 563.1 428.4 544 439.4L544 496C544 522.5 522.5 544 496 544L464 544C451.7 544 440.4 539.4 431.9 531.7C431.9 530.5 432 529.2 432 528zM480 96C510.9 96 536 121.1 536 152C536 182.9 510.9 208 480 208C449.1 208 424 182.9 424 152C424 121.1 449.1 96 480 96z"/></svg>
-				  
-                 
-                  <a
-                    href="#"
-                    class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover"
-                  >
-                    Mais Informa&ccedil;&otilde;es<i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-                <!--end::Small Box Widget 1-->
-              </div>
-			  <div class="col-lg-4 col-4">
-                <!--begin::Small Box Widget 2-->
-                <div class="small-box text-bg-danger">
-                  <div class="inner">
-                    <h3 id="totalVisitas"><?= $resumo['interditada'] ?></h3>
-
-                    <p id="visitasRealizadas">Interditadas</p>
-			
-                  </div>
-				  
-                  <svg
-                    class="small-box-icon"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                  >
-                    <path
-                      d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z"
-                    ></path>
-                  </svg>
-				  
-                  <a
-                    href="#"
-                    class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover"
-                  >
-                    More info <i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-                <!--end::Small Box Widget 2-->
-              </div>
-			  
-</div>
-            
-            <!--end::Row-->
-			
-			</div>
+	<div "row">
+	<?php foreach ($agrupado as $cnes => $unidade): ?>
 			<div class="row">
-			
 			 <div class="col-12">
                 <div class="card mb-4">
+				<div class="card card-outline card-primary ">
                   <div class="card-header border-0">
-                    <div class="d-flex justify-content-between">
-                      <h3 class="card-title">Listagem de Interdições</h3>
-                      
+                    <div class="card-header">
+            
+                    <h5 class="card-title mb-0">CNES: <?= $cnes ?> - <?= $unidade['info']['nome_popular'] ?></h5>
+                   
+					<div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-lte-toggle="card-collapse">
+                        <i data-lte-icon="expand" class="bi bi-plus-lg"></i>
+                        <i data-lte-icon="collapse" class="bi bi-dash-lg"></i>
+                      </button>
                     </div>
-                  </div>
-                  <div class="card-body">
-                     <table id="tabela"
-                                       class="table table-bordered table-striped">
+                </div>
+				</div>
+                <div class="card-body">
 
-                                    <thead>
+                    <?php foreach ($unidade['equipes'] as $equipe): ?>
+<div class="card mb-4">
+				<div class="card card-outline card-primary collapsed-card">
+					<div class="card-header border-0">
+                    <div class="card-header">
+            
+                    <h5 class="card-title mb-0">👥 <?= $equipe['equipe_nome'] ?>
+                            <span class="badge bg-secondary">
+                                INE: <?= $equipe['equipe_ine'] ?>
+                            </span></h5>
+                   
+					<div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-lte-toggle="card-collapse">
+                        <i data-lte-icon="expand" class="bi bi-plus-lg"></i>
+                        <i data-lte-icon="collapse" class="bi bi-dash-lg"></i>
+                      </button>
+                    </div>
+                </div>
+				</div>
+                    <div class="card-body">
 
-                                    <tr>
-                                        <th>CNES</th>
-                                        <th>Unidade</th>
-                                        <th>Situação</th>
-                                        <th>Procedimento</th>
-                                        <th>Código</th>
-                                        <th>Observação</th>
-                                    </tr>
+                        <h6 class="mb-3">
+                            
+                        </h6>
 
+                        <?php foreach ($equipe['especialidades'] as $esp => $lista): ?>
+
+                        <?php 
+						$totalVagas = 0;
+
+						foreach ($lista as $itemLista) {
+							$totalVagas += (int)$itemLista['vagas'];
+						}
+
+													if ($totalVagas == 4) {
+							$statusRegra = '<span class="badge bg-success">Padrão OK (4 vagas)</span>';
+							$classeBox = '';
+						} elseif ($totalVagas > 4) {
+							$statusRegra = '<span class="badge bg-warning text-dark">Acima do padrão (' . $totalVagas . ' vagas)</span>';
+							$classeBox = 'border border-warning';
+						} else {
+							$statusRegra = '<span class="badge bg-danger">Abaixo do padrão (' . $totalVagas . ' vagas)</span>';
+							$classeBox = 'border border-danger';
+						}
+                        ?>
+
+                        <div class="mb-3 p-2 rounded <?= $classeBox ?>">
+
+                            <h6 class="text-primary d-flex justify-content-between align-items-center">
+                                <span>🩺 <?= $esp ?></span>
+                                <?= $statusRegra ?>
+                            </h6>
+
+                            <div class="table-responsive">
+                                <table class="table table-sm table-bordered table-striped align-middle">
+
+                                    <thead class="table-primary">
+                                        <tr>
+                                            <th>Dia</th>
+                                            <th>Horário</th>
+                                            <th>Tempo</th>
+                                            <th>Minutos</th>
+                                            <th>Vagas</th>
+                                            <th>Status</th>
+                                        </tr>
                                     </thead>
 
                                     <tbody>
 
-                                    <?php foreach ($dados as $item): ?>
+                                    <?php foreach ($lista as $r): ?>
 
-                                        <tr>
+                                    <tr>
+                                        <td><?= $r['dia'] ?: '-' ?></td>
 
-                                            <td>
-                                                <?= $item['CNES'] ?? '-' ?>
-                                            </td>
+                                        <td>
+                                            <?= $r['inicio'] ?> - <?= $r['fim'] ?>
+                                        </td>
 
-                                            <td>
-                                                <?= $item['US'] ?? '-' ?>
-                                            </td>
+                                        <td><?= $r['tempo'] ?> min</td>
 
-                                            <td>
+                                        <td><?= $r['minutos'] ?></td>
 
-                                                <span class="badge badge-<?= badgeSituacao($item['Situação'] ?? '') ?>">
+                                        <td>
+                                            <span class="badge <?= $r['vagas'] > 0 ? 'bg-success' : 'bg-danger' ?>">
+                                                <?= $r['vagas'] ?>
+                                            </span>
+                                        </td>
 
-                                                    <?= $item['Situação'] ?? '-' ?>
-
-                                                </span>
-
-                                            </td>
-
-                                            <td>
-                                                <?= $item['Procedimento'] ?? '-' ?>
-                                            </td>
-
-                                            <td>
-                                                <?= $item['Cod. Procedimento'] ?? '-' ?>
-                                            </td>
-
-                                            <td>
-                                                <?= $item['Observação'] ?? '-' ?>
-                                            </td>
-
-                                        </tr>
+                                        <td>
+                                            <?= $r['status'] ?: '<span class="badge bg-success">OK</span>' ?>
+                                        </td>
+                                    </tr>
 
                                     <?php endforeach; ?>
 
                                     </tbody>
 
                                 </table>
-                    
-                  </div>
-                </div>
-                <!-- /.card -->
+                            </div>
 
-                
-              </div>
+                        </div>
+
+                        <?php endforeach; ?>
+
+                    </div>
+</div></div>
+                    <?php endforeach; ?>
+
+                </div>
+
+            </div>
+			</div>
+			</div>
+			</div>
+            <?php endforeach; ?>
+	
+	</div>
+			 
+
+            <!--end::Row-->
+			
+			</div>
+	 
+              
 			
 			</div>
 			
@@ -854,7 +641,10 @@ function badgeSituacao($situacao)
    
 
 </script>
-	
+	<script>
+function exportarPDF() {
+    window.print();
+}
 		
     <!-- ChartJS -->
 

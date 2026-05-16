@@ -1,0 +1,546 @@
+Listagem de caminhos de pasta para o volume Windows
+O número de série do volume é 0000008B A43C:16F4
+C:.
+¦   .browserslistrc
+¦   .bundlewatch.config.json
+¦   .editorconfig
+¦   .eslintrc.json
+¦   .gitattributes
+¦   .gitignore
+¦   .gitpod.yml
+¦   .lgtm.yml
+¦   .npmignore
+¦   .prettierrc
+¦   .stylelintignore
+¦   .stylelintrc.json
+¦   ACCESSIBILITY-COMPLIANCE.md
+¦   alterarsenha.php
+¦   atendimentos.php
+¦   cadastrarusuario.php
+¦   CHANGELOG.md
+¦   chat_get.php
+¦   chat_send.php
+¦   CODE_OF_CONDUCT.md
+¦   composer.json
+¦   equipe.php
+¦   eslint.config.js
+¦   esquecisenha.php
+¦   estrutura.txt
+¦   falecomsuaequipe.php
+¦   func.php
+¦   index - Copia (2).php
+¦   index - Copia.php
+¦   index.html
+¦   index.php
+¦   interdicoes.php
+¦   LICENSE
+¦   logout.php
+¦   menu.php
+¦   online.php
+¦   package-lock.json
+¦   package.json
+¦   planilha.php
+¦   README.md
+¦   script para chat.txt
+¦   SECURITY.md
+¦   teste.php
+¦   top.php
+¦   tsconfig.json
+¦   users.php
+¦   visitas.php
+¦   WhatsApp Image 2026-05-15 at 11.30.24.jpeg
+¦   
++---.github
+¦   ¦   CONTRIBUTING.md
+¦   ¦   dependabot.yml
+¦   ¦   FUNDING.yml
+¦   ¦   
+¦   +---codeql
+¦   ¦       codeql-config.yml
+¦   ¦       
+¦   +---ISSUE_TEMPLATE
+¦   ¦       bug-report-for-adminlte-v3.1-x.md
+¦   ¦       feature-request-for-adminlte-v4-x.md
+¦   ¦       
+¦   +---workflows
+¦           bundlewatch.yml
+¦           codeql.yml
+¦           docs.yml
+¦           lint.yml
+¦           node-sass.yml
+¦           release.yml
+¦           
++---cache
+¦       atendimentos_02f7b3bbf9396e537547b6f3120adb2c.json
+¦       atendimentos_325e4b288eea37059c55b5a071211e54.json
+¦       atendimentos_4fd10604b2b804bd402c0b06c3ec6a77.json
+¦       atendimentos_ad5b4608f8a0fa00d50f142c3d3a79e2.json
+¦       atendimentos_af5a64c07dd4bb8670ee94fa3e43ea46.json
+¦       atendimentos_b169bb229b941d74ebb4c7df4eee3b0a.json
+¦       atendimentos_b2597379b1c7da714e6f3dfa825edbf7.json
+¦       atendimentos_c29ac7293e8dbfc5fb208aad37ee1229.json
+¦       atendimentos_c7f0219db70fa99ae6134c843c77d747.json
+¦       atendimentos_cecb466eb8016f0ca8c5e429b495c484.json
+¦       atendimentos_d10ef25238e1338afcce2eee590942ae.json
+¦       atendimentos_d751713988987e9331980363e24189ce.json
+¦       atendimentos_f3fe459ef5a96d787042bbd0d63ea512.json
+¦       escutainicial_02f7b3bbf9396e537547b6f3120adb2c.json
+¦       escutainicial_325e4b288eea37059c55b5a071211e54.json
+¦       escutainicial_4fd10604b2b804bd402c0b06c3ec6a77.json
+¦       escutainicial_ad5b4608f8a0fa00d50f142c3d3a79e2.json
+¦       escutainicial_af5a64c07dd4bb8670ee94fa3e43ea46.json
+¦       escutainicial_b169bb229b941d74ebb4c7df4eee3b0a.json
+¦       escutainicial_b2597379b1c7da714e6f3dfa825edbf7.json
+¦       escutainicial_c29ac7293e8dbfc5fb208aad37ee1229.json
+¦       escutainicial_c7f0219db70fa99ae6134c843c77d747.json
+¦       escutainicial_cecb466eb8016f0ca8c5e429b495c484.json
+¦       escutainicial_d10ef25238e1338afcce2eee590942ae.json
+¦       escutainicial_d751713988987e9331980363e24189ce.json
+¦       escutainicial_f3fe459ef5a96d787042bbd0d63ea512.json
+¦       
++---CORE
+¦   ¦   .env
+¦   ¦   bootstrap.php
+¦   ¦   cache.php
+¦   ¦   config.php
+¦   ¦   env.php
+¦   ¦   session.php
+¦   ¦   
+¦   +---banco
+¦   ¦       secsauderecife.sql
+¦   ¦       
+¦   +---cache
+¦           dados_07456f52268c4e7337f6942dcc9bb5e0.json
+¦           dados_16486ca993b82136b7ec59373132fff2.json
+¦           dados_1ec619e387baafa4162a8e9ea3567e0b.json
+¦           dados_230f333877476832509c56c962e24b5c.json
+¦           dados_25ca187d8a87dd8ef6435bc4866ee237.json
+¦           dados_3fc7ef3563dde816756821ddccf33beb.json
+¦           dados_42d0ec3874980bceb15936c84b7b5991.json
+¦           dados_43c877278017d6d3653637e6acb8dad3.json
+¦           dados_483be00610111a6dfa22f2306c0f9066.json
+¦           dados_6218c1bbfacabddb4d686f205a25ca3a.json
+¦           dados_6902a10fa33e20d05ef1144365b79c8a.json
+¦           dados_6e2de769186e8d76f92bfea02e05f440.json
+¦           dados_9cb16ce8597117fe1518d8c5e30dd00d.json
+¦           dados_ae9c595e925d5e43b2467895291de06b.json
+¦           dados_b1dabab0ff63f760d797497e0d3b9fc1.json
+¦           dados_b53ff97f0c49d537189def7070c42d3e.json
+¦           dados_c3f2b010531c08f20d57967546eae95e.json
+¦           dados_c61ba47c161148dace34cd3b9f79fed7.json
+¦           dados_c7792f26aa5ed5218ca7ea6e266a15ea.json
+¦           dados_d751713988987e9331980363e24189ce.json
+¦           dados_ddd893b8e6efc214b25b604f55687423.json
+¦           dados_eb26ad6a7bc8c76dba900733dd1f59cd.json
+¦           dados_f15daa1f032308e78391c38d1adeef73.json
+¦           dados_f3358ac70bb47c727937cb223ada2238.json
+¦           dados_fefcb7c8e785cc2ca7e7b47d0485e6de.json
+¦           
++---dist
+¦   ¦   index.html
+¦   ¦   index2.html
+¦   ¦   index3.html
+¦   ¦   
+¦   +---assets
+¦   ¦   +---img
+¦   ¦       ¦   AdminLTEFullLogo.png
+¦   ¦       ¦   AdminLTELogo.png
+¦   ¦       ¦   avatar.png
+¦   ¦       ¦   avatar2.png
+¦   ¦       ¦   avatar3.png
+¦   ¦       ¦   avatar4.png
+¦   ¦       ¦   avatar5.png
+¦   ¦       ¦   boxed-bg.jpg
+¦   ¦       ¦   boxed-bg.png
+¦   ¦       ¦   default-150x150.png
+¦   ¦       ¦   icons.png
+¦   ¦       ¦   photo1.png
+¦   ¦       ¦   photo2.png
+¦   ¦       ¦   photo3.jpg
+¦   ¦       ¦   photo4.jpg
+¦   ¦       ¦   prod-1.jpg
+¦   ¦       ¦   prod-2.jpg
+¦   ¦       ¦   prod-3.jpg
+¦   ¦       ¦   prod-4.jpg
+¦   ¦       ¦   prod-5.jpg
+¦   ¦       ¦   user1-128x128.jpg
+¦   ¦       ¦   user2-160x160.jpg
+¦   ¦       ¦   user3-128x128.jpg
+¦   ¦       ¦   user4-128x128.jpg
+¦   ¦       ¦   user5-128x128.jpg
+¦   ¦       ¦   user6-128x128.jpg
+¦   ¦       ¦   user7-128x128.jpg
+¦   ¦       ¦   user8-128x128.jpg
+¦   ¦       ¦   
+¦   ¦       +---credit
+¦   ¦               american-express.png
+¦   ¦               cirrus.png
+¦   ¦               mastercard.png
+¦   ¦               paypal.png
+¦   ¦               paypal2.png
+¦   ¦               visa.png
+¦   ¦               
+¦   +---css
+¦   ¦       adminlte.css
+¦   ¦       adminlte.css.map
+¦   ¦       adminlte.min.css
+¦   ¦       adminlte.min.css.map
+¦   ¦       adminlte.rtl.css
+¦   ¦       adminlte.rtl.css.map
+¦   ¦       adminlte.rtl.min.css
+¦   ¦       adminlte.rtl.min.css.map
+¦   ¦       
+¦   +---docs
+¦   ¦   ¦   browser-support.html
+¦   ¦   ¦   color-mode.html
+¦   ¦   ¦   faq.html
+¦   ¦   ¦   how-to-contribute.html
+¦   ¦   ¦   introduction.html
+¦   ¦   ¦   layout.html
+¦   ¦   ¦   license.html
+¦   ¦   ¦   
+¦   ¦   +---components
+¦   ¦   ¦       main-header.html
+¦   ¦   ¦       main-sidebar.html
+¦   ¦   ¦       
+¦   ¦   +---javascript
+¦   ¦           accessibility.html
+¦   ¦           card-widget.html
+¦   ¦           direct-chat.html
+¦   ¦           fullscreen.html
+¦   ¦           layout.html
+¦   ¦           pushmenu.html
+¦   ¦           treeview.html
+¦   ¦           
+¦   +---examples
+¦   ¦       lockscreen.html
+¦   ¦       login-v2.html
+¦   ¦       login.html
+¦   ¦       register-v2.html
+¦   ¦       register.html
+¦   ¦       
+¦   +---forms
+¦   ¦       general.html
+¦   ¦       
+¦   +---generate
+¦   ¦       theme.html
+¦   ¦       
+¦   +---js
+¦   ¦       adminlte.js
+¦   ¦       adminlte.js.map
+¦   ¦       adminlte.min.js
+¦   ¦       adminlte.min.js.map
+¦   ¦       direct-chat.min.js
+¦   ¦       
+¦   +---layout
+¦   ¦       collapsed-sidebar-without-hover.html
+¦   ¦       collapsed-sidebar.html
+¦   ¦       fixed-complete.html
+¦   ¦       fixed-footer.html
+¦   ¦       fixed-header.html
+¦   ¦       fixed-sidebar.html
+¦   ¦       layout-custom-area.html
+¦   ¦       layout-rtl.html
+¦   ¦       logo-switch.html
+¦   ¦       sidebar-mini.html
+¦   ¦       unfixed-sidebar.html
+¦   ¦       
+¦   +---tables
+¦   ¦       simple.html
+¦   ¦       
+¦   +---UI
+¦   ¦       general.html
+¦   ¦       icons.html
+¦   ¦       timeline.html
+¦   ¦       
+¦   +---widgets
+¦           cards.html
+¦           info-box.html
+¦           small-box.html
+¦           
++---folha
+¦       gerar.php
+¦       index.php
+¦       
++---partials
+¦       card_body.php
+¦       
++---saudedigital
+¦       index.php
+¦       
++---security
+¦       lock.php
+¦       login.php
+¦       session_guard.php
+¦       
++---src
+¦   +---assets
+¦   ¦   +---img
+¦   ¦       ¦   AdminLTEFullLogo.png
+¦   ¦       ¦   AdminLTELogo.png
+¦   ¦       ¦   avatar.png
+¦   ¦       ¦   avatar2.png
+¦   ¦       ¦   avatar3.png
+¦   ¦       ¦   avatar4.png
+¦   ¦       ¦   avatar5.png
+¦   ¦       ¦   boxed-bg.jpg
+¦   ¦       ¦   boxed-bg.png
+¦   ¦       ¦   default-150x150.png
+¦   ¦       ¦   icons.png
+¦   ¦       ¦   photo1.png
+¦   ¦       ¦   photo2.png
+¦   ¦       ¦   photo3.jpg
+¦   ¦       ¦   photo4.jpg
+¦   ¦       ¦   prod-1.jpg
+¦   ¦       ¦   prod-2.jpg
+¦   ¦       ¦   prod-3.jpg
+¦   ¦       ¦   prod-4.jpg
+¦   ¦       ¦   prod-5.jpg
+¦   ¦       ¦   user1-128x128.jpg
+¦   ¦       ¦   user2-160x160.jpg
+¦   ¦       ¦   user3-128x128.jpg
+¦   ¦       ¦   user4-128x128.jpg
+¦   ¦       ¦   user5-128x128.jpg
+¦   ¦       ¦   user6-128x128.jpg
+¦   ¦       ¦   user7-128x128.jpg
+¦   ¦       ¦   user8-128x128.jpg
+¦   ¦       ¦   
+¦   ¦       +---credit
+¦   ¦               american-express.png
+¦   ¦               cirrus.png
+¦   ¦               mastercard.png
+¦   ¦               paypal.png
+¦   ¦               paypal2.png
+¦   ¦               visa.png
+¦   ¦               
+¦   +---config
+¦   ¦       assets.config.mjs
+¦   ¦       astro.config.mjs
+¦   ¦       postcss.config.mjs
+¦   ¦       rollup.config.js
+¦   ¦       
+¦   +---html
+¦   ¦   ¦   .eslintrc.json
+¦   ¦   ¦   .prettierrc.js
+¦   ¦   ¦   .tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---components
+¦   ¦   ¦   ¦   _head.astro
+¦   ¦   ¦   ¦   _scripts.astro
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---dashboard
+¦   ¦   ¦   ¦       _footer.astro
+¦   ¦   ¦   ¦       _sidenav.astro
+¦   ¦   ¦   ¦       _topbar.astro
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---docs
+¦   ¦   ¦   ¦   ¦   browser-support.mdx
+¦   ¦   ¦   ¦   ¦   color-mode.mdx
+¦   ¦   ¦   ¦   ¦   faq.mdx
+¦   ¦   ¦   ¦   ¦   how-to-contribute.mdx
+¦   ¦   ¦   ¦   ¦   introduction.mdx
+¦   ¦   ¦   ¦   ¦   license.mdx
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---components
+¦   ¦   ¦   ¦           main-header.mdx
+¦   ¦   ¦   ¦           main-sidebar.mdx
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---javascript
+¦   ¦   ¦           accessibility.mdx
+¦   ¦   ¦           card-widget.mdx
+¦   ¦   ¦           direct-chat.mdx
+¦   ¦   ¦           fullscreen.mdx
+¦   ¦   ¦           layout.mdx
+¦   ¦   ¦           pushmenu.mdx
+¦   ¦   ¦           treeview.mdx
+¦   ¦   ¦           
+¦   ¦   +---pages
+¦   ¦   ¦   ¦   index.astro
+¦   ¦   ¦   ¦   index2.astro
+¦   ¦   ¦   ¦   index3.astro
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---docs
+¦   ¦   ¦   ¦   ¦   browser-support.astro
+¦   ¦   ¦   ¦   ¦   color-mode.astro
+¦   ¦   ¦   ¦   ¦   faq.astro
+¦   ¦   ¦   ¦   ¦   how-to-contribute.astro
+¦   ¦   ¦   ¦   ¦   introduction.astro
+¦   ¦   ¦   ¦   ¦   layout.astro
+¦   ¦   ¦   ¦   ¦   license.astro
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---components
+¦   ¦   ¦   ¦   ¦       main-header.astro
+¦   ¦   ¦   ¦   ¦       main-sidebar.astro
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---javascript
+¦   ¦   ¦   ¦           accessibility.astro
+¦   ¦   ¦   ¦           card-widget.astro
+¦   ¦   ¦   ¦           direct-chat.astro
+¦   ¦   ¦   ¦           fullscreen.astro
+¦   ¦   ¦   ¦           layout.astro
+¦   ¦   ¦   ¦           pushmenu.astro
+¦   ¦   ¦   ¦           treeview.astro
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---examples
+¦   ¦   ¦   ¦       lockscreen.astro
+¦   ¦   ¦   ¦       login-v2.astro
+¦   ¦   ¦   ¦       login.astro
+¦   ¦   ¦   ¦       register-v2.astro
+¦   ¦   ¦   ¦       register.astro
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---forms
+¦   ¦   ¦   ¦       general.astro
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---generate
+¦   ¦   ¦   ¦       theme.astro
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---layout
+¦   ¦   ¦   ¦       collapsed-sidebar-without-hover.astro
+¦   ¦   ¦   ¦       collapsed-sidebar.astro
+¦   ¦   ¦   ¦       fixed-complete.astro
+¦   ¦   ¦   ¦       fixed-footer.astro
+¦   ¦   ¦   ¦       fixed-header.astro
+¦   ¦   ¦   ¦       fixed-sidebar.astro
+¦   ¦   ¦   ¦       layout-custom-area.astro
+¦   ¦   ¦   ¦       layout-rtl.astro
+¦   ¦   ¦   ¦       logo-switch.astro
+¦   ¦   ¦   ¦       sidebar-mini.astro
+¦   ¦   ¦   ¦       unfixed-sidebar.astro
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---tables
+¦   ¦   ¦   ¦       simple.astro
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---UI
+¦   ¦   ¦   ¦       general.astro
+¦   ¦   ¦   ¦       icons.astro
+¦   ¦   ¦   ¦       timeline.astro
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---widgets
+¦   ¦   ¦           cards.astro
+¦   ¦   ¦           info-box.astro
+¦   ¦   ¦           small-box.astro
+¦   ¦   ¦           
+¦   ¦   +---public
+¦   ¦       +---assets
+¦   ¦       ¦   +---img
+¦   ¦       ¦       ¦   AdminLTEFullLogo.png
+¦   ¦       ¦       ¦   AdminLTELogo.png
+¦   ¦       ¦       ¦   avatar.png
+¦   ¦       ¦       ¦   avatar2.png
+¦   ¦       ¦       ¦   avatar3.png
+¦   ¦       ¦       ¦   avatar4.png
+¦   ¦       ¦       ¦   avatar5.png
+¦   ¦       ¦       ¦   boxed-bg.jpg
+¦   ¦       ¦       ¦   boxed-bg.png
+¦   ¦       ¦       ¦   default-150x150.png
+¦   ¦       ¦       ¦   icons.png
+¦   ¦       ¦       ¦   photo1.png
+¦   ¦       ¦       ¦   photo2.png
+¦   ¦       ¦       ¦   photo3.jpg
+¦   ¦       ¦       ¦   photo4.jpg
+¦   ¦       ¦       ¦   prod-1.jpg
+¦   ¦       ¦       ¦   prod-2.jpg
+¦   ¦       ¦       ¦   prod-3.jpg
+¦   ¦       ¦       ¦   prod-4.jpg
+¦   ¦       ¦       ¦   prod-5.jpg
+¦   ¦       ¦       ¦   user1-128x128.jpg
+¦   ¦       ¦       ¦   user2-160x160.jpg
+¦   ¦       ¦       ¦   user3-128x128.jpg
+¦   ¦       ¦       ¦   user4-128x128.jpg
+¦   ¦       ¦       ¦   user5-128x128.jpg
+¦   ¦       ¦       ¦   user6-128x128.jpg
+¦   ¦       ¦       ¦   user7-128x128.jpg
+¦   ¦       ¦       ¦   user8-128x128.jpg
+¦   ¦       ¦       ¦   
+¦   ¦       ¦       +---credit
+¦   ¦       ¦               american-express.png
+¦   ¦       ¦               cirrus.png
+¦   ¦       ¦               mastercard.png
+¦   ¦       ¦               paypal.png
+¦   ¦       ¦               paypal2.png
+¦   ¦       ¦               visa.png
+¦   ¦       ¦               
+¦   ¦       +---css
+¦   ¦       ¦       adminlte.css
+¦   ¦       ¦       adminlte.css.map
+¦   ¦       ¦       adminlte.min.css
+¦   ¦       ¦       adminlte.min.css.map
+¦   ¦       ¦       adminlte.rtl.css
+¦   ¦       ¦       adminlte.rtl.css.map
+¦   ¦       ¦       adminlte.rtl.min.css
+¦   ¦       ¦       adminlte.rtl.min.css.map
+¦   ¦       ¦       
+¦   ¦       +---js
+¦   ¦               adminlte.js
+¦   ¦               adminlte.js.map
+¦   ¦               adminlte.min.js
+¦   ¦               adminlte.min.js.map
+¦   ¦               
+¦   +---scss
+¦   ¦   ¦   adminlte.scss
+¦   ¦   ¦   _accessibility.scss
+¦   ¦   ¦   _app-content.scss
+¦   ¦   ¦   _app-footer.scss
+¦   ¦   ¦   _app-header.scss
+¦   ¦   ¦   _app-main.scss
+¦   ¦   ¦   _app-sidebar.scss
+¦   ¦   ¦   _app-wrapper.scss
+¦   ¦   ¦   _bootstrap-variables.scss
+¦   ¦   ¦   _callouts.scss
+¦   ¦   ¦   _cards.scss
+¦   ¦   ¦   _compact-mode.scss
+¦   ¦   ¦   _direct-chat.scss
+¦   ¦   ¦   _docs.scss
+¦   ¦   ¦   _dropdown.scss
+¦   ¦   ¦   _info-box.scss
+¦   ¦   ¦   _miscellaneous.scss
+¦   ¦   ¦   _mixins.scss
+¦   ¦   ¦   _progress-bars.scss
+¦   ¦   ¦   _root.scss
+¦   ¦   ¦   _small-box.scss
+¦   ¦   ¦   _table.scss
+¦   ¦   ¦   _timeline.scss
+¦   ¦   ¦   _toasts.scss
+¦   ¦   ¦   _variables-dark.scss
+¦   ¦   ¦   _variables.scss
+¦   ¦   ¦   
+¦   ¦   +---mixins
+¦   ¦   ¦       _animations.scss
+¦   ¦   ¦       _scrollbar.scss
+¦   ¦   ¦       
+¦   ¦   +---pages
+¦   ¦   ¦       _lockscreen.scss
+¦   ¦   ¦       _login_and_register.scss
+¦   ¦   ¦       
+¦   ¦   +---parts
+¦   ¦           _components.scss
+¦   ¦           _core.scss
+¦   ¦           _extra-components.scss
+¦   ¦           _miscellaneous.scss
+¦   ¦           _pages.scss
+¦   ¦           
+¦   +---ts
+¦   ¦   ¦   accessibility.ts
+¦   ¦   ¦   adminlte.ts
+¦   ¦   ¦   card-widget.ts
+¦   ¦   ¦   direct-chat.ts
+¦   ¦   ¦   fullscreen.ts
+¦   ¦   ¦   layout.ts
+¦   ¦   ¦   push-menu.ts
+¦   ¦   ¦   treeview.ts
+¦   ¦   ¦   
+¦   ¦   +---util
+¦   ¦           index.ts
+¦   ¦           
+¦   +---utils
+¦           index.js
+¦           
++---views
+        atendimentos.php
+        dashboard_listagem.php
+        dashboard_totais.php
+        error.html
+        escutainicial.php
+        listagem_atendimentos.php
+        visitas.php
+        
