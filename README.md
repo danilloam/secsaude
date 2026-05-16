@@ -94,12 +94,14 @@ Configure as variáveis:
 - DB_PASS
 - DB_NAME
 
-▶️ Execução
+---
+
+### ▶️ Execução
 
 Coloque o projeto no servidor local:
 
-XAMPP → htdocs
-WAMP → www
+- XAMPP → htdocs
+- WAMP → www
 
 Acesse:
 
@@ -120,13 +122,17 @@ chat_get.php
 
 Permite comunicação interna entre usuários em tempo real.
 
-📊 Módulos principais
-atendimentos.php
-visitas.php
-equipe.php
-interdicoes.php
-users.php
-⚡ Cache
+---
+
+### 📊 Módulos principais
+- atendimentos.php
+- visitas.php
+- interdicoes.php
+- falecomsuaequipe.php
+
+---
+
+### ⚡ Cache
 
 O sistema utiliza cache em JSON para melhorar desempenho:
 
@@ -137,26 +143,41 @@ O sistema utiliza cache em JSON para melhorar desempenho:
 Adicione imagens do sistema:
 
 ![Dashboard](./caminho-da-imagem.png)
-📌 Melhorias futuras
+
+---
+
+### 📌 Melhorias futuras
  API REST
  Melhorias de UI/UX
  Exportação avançada (PDF/Excel)
  Controle de permissões por perfil
  Logs de auditoria
-🤝 Contribuição
+
+---
+
+### 🤝 Contribuição
 Fork o projeto
 Crie uma branch (feature/minha-feature)
 Commit suas alterações
 Push
 Abra um Pull Request
-🔒 Segurança
+
+---
+
+### 🔒 Segurança
 Proteção de sessão implementada
 Controle de acesso por usuário
 Uso de .env para dados sensíveis
-📄 Licença
+
+---
+
+### 📄 Licença
 
 Este projeto está sob a licença MIT.
 
-👨‍💻 Autor
+
+---
+
+### 👨‍💻 Autor
 
 Desenvolvido por Danillo Almeida Marques
