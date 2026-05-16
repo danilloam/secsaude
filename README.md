@@ -1,6 +1,6 @@
 # 🏥 Sistema de Gestão de Saúde - Distrito Sanitário
 
-Sistema web desenvolvido em PHP para gerenciamento de dados de saúde, incluindo atendimentos, visitas, equipes e relatórios, com foco em organização por distrito sanitário.
+Sistema web desenvolvido em **PHP** para gerenciamento de dados da saúde pública, incluindo atendimentos, visitas, equipes e relatórios, com organização por distrito sanitário.
 
 ---
 
@@ -10,23 +10,23 @@ Sistema web desenvolvido em PHP para gerenciamento de dados de saúde, incluindo
 - 👥 Gestão de usuários
 - 🏥 Controle por equipe e unidade
 - 📅 Registro de atendimentos
-- 🏠 Registro de visitas
+- 🏠 Registro de visitas domiciliares
 - 💬 Chat interno entre usuários
 - 📄 Geração de relatórios (incluindo folha)
 - 🔐 Sistema de autenticação (login/logout)
 - 📈 Integração com dados externos (Google Sheets / JSON)
-- ⚡ Cache de dados para performance
+- ⚡ Cache de dados para alta performance
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
 
-- PHP (backend principal)
+- PHP (backend)
 - MySQL (banco de dados)
 - JavaScript
 - HTML5 / CSS3
 - AdminLTE (interface)
-- JSON (cache e integração de dados)
+- JSON (cache e integração)
 
 ---
 
@@ -40,51 +40,64 @@ Sistema web desenvolvido em PHP para gerenciamento de dados de saúde, incluindo
 /partials → Componentes reutilizáveis
 
 
+---
+
 ## ⚙️ Como executar o projeto
 
 ### 🔧 Pré-requisitos
 
 - PHP 7.4+
 - MySQL
-- Servidor local (XAMPP, WAMP, Laragon)
+- Servidor local (XAMPP, WAMP ou Laragon)
 
 ---
 
 ### ▶️ Instalação
 
 ```bash
-# Clone o repositório
 git clone https://github.com/seu-usuario/seu-repositorio.git
-
-# Acesse a pasta
 cd seu-repositorio
-
 ```
 
+---
 
-###🗄️ Banco de dados
-Como não conseguimos fazer os ajustes pelo banco de dados esus, utilizei um banco de dados relacional para colocar as configurações de metas, quais unidades pertencem a determinado distrito e com isso ao pegar as informações do banco esus ele valida e vai ajustando o sistema ao que precisa.
 
-Crie um banco no MySQL
-Importe o arquivo:
+### 🗄️ Banco de dados
+
+Devido a limitações de configuração no banco e-SUS, foi utilizado um banco relacional auxiliar para:
+
+- Definição de metas
+- Relacionamento de unidades por distrito
+- Ajustes e validações dos dados importados
+
+## Passos:
+- Crie um banco no MySQL
+- Importe o arquivo:
+
+```bash
 /CORE/banco/secsauderecife.sql
+```
 
-⚙️ Configuração
+---
+
+### ⚙️ Configuração
 
 Edite o arquivo:
 
-CORE/.ENV
+```bash
+CORE/.env
+```
 
-Configure:
+Configure as variáveis:
 
-Host do banco
-Usuário
-Senha
-Nome do banco
+- DB_HOST
+- DB_USER
+- DB_PASS
+- DB_NAME
 
-▶️ Executar
+▶️ Execução
 
-Coloque o projeto na pasta do servidor:
+Coloque o projeto no servidor local:
 
 XAMPP → htdocs
 WAMP → www
@@ -92,15 +105,13 @@ WAMP → www
 Acesse:
 
 http://localhost/seu-projeto
-
 🔐 Autenticação
 
 O sistema possui:
 
-Login (/security/login.php)
-Controle de sessão (session_guard.php)
+Login → /security/login.php
+Proteção de sessão → session_guard.php
 Logout
-
 💬 Módulo de Chat
 
 Arquivos principais:
@@ -108,7 +119,7 @@ Arquivos principais:
 chat_send.php
 chat_get.php
 
-Permite comunicação interna entre usuários.
+Permite comunicação interna entre usuários em tempo real.
 
 📊 Módulos principais
 atendimentos.php
@@ -116,38 +127,33 @@ visitas.php
 equipe.php
 interdicoes.php
 users.php
-
 ⚡ Cache
 
-O sistema utiliza cache em JSON para melhorar performance:
+O sistema utiliza cache em JSON para melhorar desempenho:
 
 /cache
 /CORE/cache
-
 📸 Screenshots
 
-Adicione prints do sistema aqui:
+Adicione imagens do sistema:
 
 ![Dashboard](./caminho-da-imagem.png)
-
 📌 Melhorias futuras
  API REST
- Melhorar UI/UX
+ Melhorias de UI/UX
  Exportação avançada (PDF/Excel)
  Controle de permissões por perfil
  Logs de auditoria
-
- 🤝 Contribuição
+🤝 Contribuição
 Fork o projeto
 Crie uma branch (feature/minha-feature)
 Commit suas alterações
 Push
 Abra um Pull Request
-
 🔒 Segurança
 Proteção de sessão implementada
 Controle de acesso por usuário
-Arquivo .env para variáveis sensíveis
+Uso de .env para dados sensíveis
 📄 Licença
 
 Este projeto está sob a licença MIT.
