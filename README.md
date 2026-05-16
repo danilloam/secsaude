@@ -59,7 +59,7 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 # Acesse a pasta
 cd seu-repositorio
 
----
+```
 
 
 ###🗄️ Banco de dados
