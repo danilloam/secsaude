@@ -106,19 +106,20 @@ Coloque o projeto no servidor local:
 Acesse:
 
 http://localhost/seu-projeto
-🔐 Autenticação
+
+---
+
+### 🔐 Autenticação
 
 O sistema possui:
 
-Login → /security/login.php
-Proteção de sessão → session_guard.php
-Logout
-💬 Módulo de Chat
+- Login → /security/login.php
+- Proteção de sessão → session_guard.php
+- Logout
 
-Arquivos principais:
+---
 
-chat_send.php
-chat_get.php
+### 💬 Módulo de Chat - Em produção
 
 Permite comunicação interna entre usuários em tempo real.
 
