@@ -17,13 +17,15 @@ $aba   = "falecomsuaequipe";
 $url = "https://opensheet.elk.sh/{$sheet}/" . urlencode($aba);
 
 
-$cacheFile = __DIR__ . '/../cache/falecomsuaequipe.json';
+$arquivo = __DIR__ . '/../cache/falecomsuaequipe.json';
 
-if (!file_exists($cacheFile)) {
-	$cacheFile=$url;
+if (file_exists($arquivo)) {
+    // 🔥 lê o cache
+    $json = file_get_contents($arquivo);
+} else {
+    // 🔥 fallback: busca online
+    $json = file_get_contents($url);
 }
-
-$json = file_get_contents($cacheFile);
 
 
 if ($json === false) die("Erro ao acessar planilha");
