@@ -10,12 +10,21 @@ if (!isset($_SESSION['user']['id'])) {
     header("Location: login.php");
     exit;
 }
-$sheet = "19jNMkSYFpHhyEJQJPxa3MijpVwUOZwoyBvyYhNnzdLE";
-$aba   = "Demandas";
+$sheet = "1if2BXY3NJwSRgGfx7RUg4rfzaXOBARYgZV_U-Ic7t_Y";
+$aba   = "falecomsuaequipe";
 
 
 $url = "https://opensheet.elk.sh/{$sheet}/" . urlencode($aba);
-$json = @file_get_contents($url);
+
+
+$cacheFile = __DIR__ . '/../cache/falecomsuaequipe.json';
+
+if (!file_exists($cacheFile)) {
+	$cacheFile=$url;
+}
+
+$json = file_get_contents($cacheFile);
+
 
 if ($json === false) die("Erro ao acessar planilha");
 

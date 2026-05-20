@@ -12,16 +12,26 @@ if (!isset($_SESSION['user']['id'])) {
 }
 
 // 🔧 CONFIG
-$sheet = "1q1pMYDn_KOWtur-zGL4VuvIsCkL6MnBMujUEOPkIyLw";
-$aba   = "BD_Agenda_Configurada";
+$sheet = "1if2BXY3NJwSRgGfx7RUg4rfzaXOBARYgZV_U-Ic7t_Y";
+$aba   = "configuracao";
 $distritoFiltro = $_SESSION['user']['distrito_id'];
 
 // 🔗 URL
 $url = "https://opensheet.elk.sh/{$sheet}/" . urlencode($aba);
 
 // 📥 BUSCA
-$json = @file_get_contents($url);
+$arquivo = __DIR__ . "/../cache/configuracao.json";
+
+if (file_exists($arquivo)) {
+    // 🔥 lê o cache
+    $json = file_get_contents($arquivo);
+} else {
+    // 🔥 fallback: busca online
+    $json = file_get_contents($url);
+}
+
 $dados = json_decode($json, true);
+
 
 $agrupado = [];
 

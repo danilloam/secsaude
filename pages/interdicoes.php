@@ -29,8 +29,8 @@ $cnesDistrito = removerZerosEsquerdaArray($unidadesDistrito);
 |--------------------------------------------------------------------------
 */
 
-$sheet = '1q1pMYDn_KOWtur-zGL4VuvIsCkL6MnBMujUEOPkIyLw';
-$aba   = 'Interdições';
+$sheet = '1if2BXY3NJwSRgGfx7RUg4rfzaXOBARYgZV_U-Ic7t_Y';
+$aba   = 'interdicoes';
 
 
 /*
@@ -134,7 +134,17 @@ function lerGoogleSheetTratado(
 
     $url = "https://opensheet.elk.sh/{$sheetId}/" . urlencode($aba);
 
-    $json = @file_get_contents($url);
+
+$arquivo = __DIR__ . "/../cache/interdicoes.json";
+
+if (file_exists($arquivo)) {
+    // 🔥 lê o cache
+    $json = file_get_contents($arquivo);
+} else {
+    // 🔥 fallback: busca online
+    $json = file_get_contents($url);
+}
+
 
     if (!$json) {
         return [];
