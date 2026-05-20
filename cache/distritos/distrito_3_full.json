@@ -1,0 +1,4410 @@
+{
+    "gerado_em": "2026-05-20 09:01:14",
+    "atendimentos": [
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2025-05",
+            "total": "40"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2025-05",
+            "total": "70"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-05",
+            "total": "83"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2025-05",
+            "total": "225"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2025-05",
+            "total": "50"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2025-05",
+            "total": "203"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2025-05",
+            "total": "437"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-05",
+            "total": "223"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2025-05",
+            "total": "164"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2025-05",
+            "total": "487"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2025-05",
+            "total": "101"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2025-05",
+            "total": "51"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2025-05",
+            "total": "123"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2025-05",
+            "total": "59"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2025-05",
+            "total": "89"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2025-05",
+            "total": "151"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2025-05",
+            "total": "48"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-05",
+            "total": "193"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-05",
+            "total": "41"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-05",
+            "total": "94"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-05",
+            "total": "157"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-05",
+            "total": "38"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-05",
+            "total": "216"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-05",
+            "total": "290"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-05",
+            "total": "122"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2025-06",
+            "total": "107"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "103"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-06",
+            "total": "155"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "371"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2025-06",
+            "total": "143"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2025-06",
+            "total": "489"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "950"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-06",
+            "total": "375"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2025-06",
+            "total": "291"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "670"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2025-06",
+            "total": "288"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2025-06",
+            "total": "148"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "270"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2025-06",
+            "total": "167"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2025-06",
+            "total": "190"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "225"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2025-06",
+            "total": "104"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2025-06",
+            "total": "137"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "385"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-06",
+            "total": "63"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-06",
+            "total": "69"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "402"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-06",
+            "total": "181"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-06",
+            "total": "420"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "702"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-06",
+            "total": "252"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "70"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2025-07",
+            "total": "91"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2025-07",
+            "total": "7"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "232"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2025-07",
+            "total": "305"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2025-07",
+            "total": "90"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "501"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2025-07",
+            "total": "1180"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-07",
+            "total": "514"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "191"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2025-07",
+            "total": "976"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2025-07",
+            "total": "263"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "223"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2025-07",
+            "total": "293"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2025-07",
+            "total": "100"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "226"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2025-07",
+            "total": "332"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2025-07",
+            "total": "174"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "92"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-07",
+            "total": "446"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-07",
+            "total": "76"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "77"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-07",
+            "total": "508"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-07",
+            "total": "109"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "317"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-07",
+            "total": "662"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-07",
+            "total": "128"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "149"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "252"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "92"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "184"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "339"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "123"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "561"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "1283"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "575"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "302"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "790"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "312"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "230"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "80"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "186"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "221"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "418"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "177"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "92"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "387"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "56"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "71"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "392"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "109"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "333"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "674"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "280"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "185"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "303"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "68"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "175"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "364"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "174"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "653"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "1004"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "499"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "283"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "650"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "282"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "215"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "261"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "116"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "230"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "462"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "75"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "126"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "395"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "44"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "280"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "441"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "70"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "322"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "670"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "318"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "200"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "376"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "79"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "141"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "554"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "181"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "516"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "1351"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "376"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "207"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "1120"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "277"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "236"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "477"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "184"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "212"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "417"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "50"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "156"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "488"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "44"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "379"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "352"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "38"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "344"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "729"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "336"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "252"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "375"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "64"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "204"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "630"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "85"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "409"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "1192"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "406"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "289"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "557"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "253"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "48"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "378"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "173"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "159"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "206"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "107"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "107"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "286"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "30"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "205"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "384"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "111"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "234"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "526"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "268"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "197"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "351"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "110"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "166"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "710"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "130"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "223"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "947"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "401"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "154"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "446"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "185"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "167"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "325"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "181"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "140"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "358"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "143"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "133"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "429"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "24"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "192"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "327"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "56"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "309"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "520"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "273"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "139"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "179"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2026-01",
+            "total": "95"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "202"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "576"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2026-01",
+            "total": "93"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "439"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "1138"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2026-01",
+            "total": "305"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "205"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "432"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2026-01",
+            "total": "147"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "261"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "367"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2026-01",
+            "total": "114"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "198"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "285"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "147"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "400"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2026-01",
+            "total": "67"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "133"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "469"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2026-01",
+            "total": "47"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "251"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "734"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2026-01",
+            "total": "230"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "185"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "201"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "101"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "125"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "743"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "97"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "453"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "939"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "264"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "291"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "509"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "134"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "277"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "166"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "165"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "169"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "302"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "76"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "93"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "418"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "43"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "250"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "388"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "170"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "166"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "549"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "270"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "221"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "381"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "120"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "147"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "816"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "119"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "518"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "1388"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "382"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "287"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "579"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "328"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "307"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "238"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "241"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "469"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "126"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "139"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "559"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "65"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "372"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "449"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "246"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "409"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "626"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "213"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "160"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "340"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "86"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "242"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "504"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "121"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "437"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "992"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "324"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "298"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "397"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "244"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "218"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "374"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "199"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "179"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "397"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "108"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "90"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "387"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "48"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "384"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "408"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "162"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "206"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "342"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "208"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "132"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "241"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "106"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "129"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "249"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "76"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "234"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "694"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "174"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "200"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "383"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "152"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "131"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "158"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "97"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "91"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "114"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "49"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "60"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "192"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "21"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "188"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "159"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "20"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "129"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "122"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "29"
+        }
+    ],
+    "escutainicial": [
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2025-05",
+            "total": "2"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-05",
+            "total": "6"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-05",
+            "total": "55"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2025-05",
+            "total": "43"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2025-05",
+            "total": "12"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-05",
+            "total": "2"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-05",
+            "total": "31"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-05",
+            "total": "34"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-05",
+            "total": "33"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-05",
+            "total": "34"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-05",
+            "total": "17"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-05",
+            "total": "54"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-05",
+            "total": "28"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "1"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-06",
+            "total": "45"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "2"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-06",
+            "total": "80"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "124"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2025-06",
+            "total": "18"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "1"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2025-06",
+            "total": "44"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "3"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-06",
+            "total": "104"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-06",
+            "total": "26"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "111"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-06",
+            "total": "38"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-06",
+            "total": "17"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-06",
+            "total": "58"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-06",
+            "total": "68"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "24"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "123"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "1"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2025-07",
+            "total": "27"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-07",
+            "total": "159"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2025-07",
+            "total": "95"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2025-07",
+            "total": "2"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "18"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "71"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2025-07",
+            "total": "8"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "35"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-07",
+            "total": "7"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-07",
+            "total": "105"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "100"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-07",
+            "total": "120"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-07",
+            "total": "51"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-07",
+            "total": "45"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-07",
+            "total": "116"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-07",
+            "total": "59"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "57"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "141"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "26"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "159"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "2"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "2"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "87"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "206"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "95"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "19"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "18"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "97"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "57"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "101"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "38"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "6"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "11"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "90"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "75"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "69"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "97"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-08",
+            "total": "42"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-08",
+            "total": "88"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-08",
+            "total": "69"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "117"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "146"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "12"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "93"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "1"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "56"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "73"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "173"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "2"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "268"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "1"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "23"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "72"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "61"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "220"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "22"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "36"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "7"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "184"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "157"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "92"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "96"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-09",
+            "total": "69"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-09",
+            "total": "146"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-09",
+            "total": "81"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "82"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "185"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "44"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "52"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "2"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "64"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "163"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "208"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "2"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "142"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "9"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "33"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "37"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "54"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "69"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "33"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "66"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "47"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "80"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "202"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "43"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "51"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-10",
+            "total": "69"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-10",
+            "total": "27"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-10",
+            "total": "134"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "79"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "146"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "34"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "37"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "118"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "5"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "65"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "203"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "262"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "1"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "5"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "9"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "177"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "69"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "31"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "80"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "17"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "41"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "48"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "90"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "145"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "100"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-11",
+            "total": "81"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-11",
+            "total": "49"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-11",
+            "total": "67"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "73"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "166"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "51"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "31"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "185"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "21"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "190"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "266"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "3"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "74"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "3"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "187"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "45"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "31"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "72"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "14"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "30"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "15"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "59"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "136"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "52"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2025-12",
+            "total": "182"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2025-12",
+            "total": "55"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2025-12",
+            "total": "59"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "56"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "106"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2026-01",
+            "total": "52"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "37"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "198"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "18"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "259"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2026-01",
+            "total": "256"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2026-01",
+            "total": "2"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "84"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "18"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2026-01",
+            "total": "57"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "12"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "10"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "44"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "24"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2026-01",
+            "total": "184"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "139"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "162"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2026-01",
+            "total": "89"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2026-01",
+            "total": "72"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2026-01",
+            "total": "71"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2026-01",
+            "total": "39"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "94"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "95"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "73"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "8"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "238"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "47"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "162"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "185"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "6"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "59"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "60"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "19"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "38"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "71"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "41"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "57"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "174"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "218"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "96"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "158"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2026-02",
+            "total": "51"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2026-02",
+            "total": "82"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2026-02",
+            "total": "64"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "121"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "189"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "55"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "14"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "284"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "1"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "137"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "306"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "246"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "3"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "17"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "29"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "3"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "29"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "38"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "118"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "17"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "97"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "142"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "324"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "144"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "239"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2026-03",
+            "total": "28"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2026-03",
+            "total": "30"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2026-03",
+            "total": "45"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "104"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "99"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "114"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "28"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "121"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "214"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "146"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "1"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "41"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "9"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "34"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "1"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "55"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "26"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "16"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "96"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "16"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "57"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "67"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "220"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "70"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "120"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2026-04",
+            "total": "21"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2026-04",
+            "total": "3"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Odonto",
+            "mes": "2026-04",
+            "total": "57"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "111"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "120"
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "108"
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "19"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "50"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "131"
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "97"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "85"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "126"
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "46"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "28"
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "23"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "6"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "4"
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "42"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "15"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "17"
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "35"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "76"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "22"
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "tipo": "Odonto",
+            "mes": "2026-05",
+            "total": "35"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Enfermagem",
+            "mes": "2026-05",
+            "total": "31"
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "tipo": "Médico",
+            "mes": "2026-05",
+            "total": "10"
+        }
+    ],
+    "visitas": [
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "mes": "2025-05",
+            "total": 442
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "mes": "2025-05",
+            "total": 818
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "mes": "2025-05",
+            "total": 1305
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "mes": "2025-05",
+            "total": 1324
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "mes": "2025-05",
+            "total": 701
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "mes": "2025-05",
+            "total": 424
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "mes": "2025-05",
+            "total": 151
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "mes": "2025-05",
+            "total": 1630
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "mes": "2025-05",
+            "total": 2589
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "mes": "2025-06",
+            "total": 942
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "mes": "2025-06",
+            "total": 2162
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "mes": "2025-06",
+            "total": 4504
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "mes": "2025-06",
+            "total": 4329
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "mes": "2025-06",
+            "total": 2489
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "mes": "2025-06",
+            "total": 1562
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "mes": "2025-06",
+            "total": 664
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "mes": "2025-06",
+            "total": 2636
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "mes": "2025-06",
+            "total": 4583
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "mes": "2025-07",
+            "total": 812
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "mes": "2025-07",
+            "total": 1189
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "mes": "2025-07",
+            "total": 4872
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "mes": "2025-07",
+            "total": 4540
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "mes": "2025-07",
+            "total": 2441
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "mes": "2025-07",
+            "total": 1376
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "mes": "2025-07",
+            "total": 725
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "mes": "2025-07",
+            "total": 3604
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "mes": "2025-07",
+            "total": 4315
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "mes": "2025-08",
+            "total": 1148
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "mes": "2025-08",
+            "total": 594
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "mes": "2025-08",
+            "total": 5718
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "mes": "2025-08",
+            "total": 4967
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "mes": "2025-08",
+            "total": 1812
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "mes": "2025-08",
+            "total": 1444
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "mes": "2025-08",
+            "total": 1067
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "mes": "2025-08",
+            "total": 3585
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "mes": "2025-08",
+            "total": 4777
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "mes": "2025-09",
+            "total": 1686
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "mes": "2025-09",
+            "total": 1879
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "mes": "2025-09",
+            "total": 4176
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "mes": "2025-09",
+            "total": 4478
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "mes": "2025-09",
+            "total": 2448
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "mes": "2025-09",
+            "total": 2124
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "mes": "2025-09",
+            "total": 724
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "mes": "2025-09",
+            "total": 3744
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "mes": "2025-09",
+            "total": 3076
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "mes": "2025-10",
+            "total": 2223
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "mes": "2025-10",
+            "total": 2196
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "mes": "2025-10",
+            "total": 4941
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "mes": "2025-10",
+            "total": 5611
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "mes": "2025-10",
+            "total": 1991
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "mes": "2025-10",
+            "total": 1289
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "mes": "2025-10",
+            "total": 795
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "mes": "2025-10",
+            "total": 4093
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "mes": "2025-10",
+            "total": 3020
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "mes": "2025-11",
+            "total": 1831
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "mes": "2025-11",
+            "total": 2043
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "mes": "2025-11",
+            "total": 5646
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "mes": "2025-11",
+            "total": 4262
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "mes": "2025-11",
+            "total": 2102
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "mes": "2025-11",
+            "total": 1704
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "mes": "2025-11",
+            "total": 711
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "mes": "2025-11",
+            "total": 3339
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "mes": "2025-11",
+            "total": 2199
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "mes": "2025-12",
+            "total": 2347
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "mes": "2025-12",
+            "total": 2226
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "mes": "2025-12",
+            "total": 4956
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "mes": "2025-12",
+            "total": 5080
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "mes": "2025-12",
+            "total": 3174
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "mes": "2025-12",
+            "total": 1807
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "mes": "2025-12",
+            "total": 790
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "mes": "2025-12",
+            "total": 3225
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "mes": "2025-12",
+            "total": 3897
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "mes": "2026-01",
+            "total": 1468
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "mes": "2026-01",
+            "total": 1765
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "mes": "2026-01",
+            "total": 5036
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "mes": "2026-01",
+            "total": 4781
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "mes": "2026-01",
+            "total": 2472
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "mes": "2026-01",
+            "total": 1375
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "mes": "2026-01",
+            "total": 670
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "mes": "2026-01",
+            "total": 2659
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "mes": "2026-01",
+            "total": 3578
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "mes": "2026-02",
+            "total": 2087
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "mes": "2026-02",
+            "total": 2000
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "mes": "2026-02",
+            "total": 4596
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "mes": "2026-02",
+            "total": 6200
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "mes": "2026-02",
+            "total": 3832
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "mes": "2026-02",
+            "total": 2121
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "mes": "2026-02",
+            "total": 576
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "mes": "2026-02",
+            "total": 2799
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "mes": "2026-02",
+            "total": 3126
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "mes": "2026-03",
+            "total": 2767
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "mes": "2026-03",
+            "total": 2734
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "mes": "2026-03",
+            "total": 6717
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "mes": "2026-03",
+            "total": 5404
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "mes": "2026-03",
+            "total": 3536
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "mes": "2026-03",
+            "total": 2345
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "mes": "2026-03",
+            "total": 876
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "mes": "2026-03",
+            "total": 4038
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "mes": "2026-03",
+            "total": 5373
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "mes": "2026-04",
+            "total": 3306
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "mes": "2026-04",
+            "total": 3109
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "mes": "2026-04",
+            "total": 5875
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "mes": "2026-04",
+            "total": 5659
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "mes": "2026-04",
+            "total": 3619
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "mes": "2026-04",
+            "total": 2173
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "mes": "2026-04",
+            "total": 528
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "mes": "2026-04",
+            "total": 4050
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "mes": "2026-04",
+            "total": 2728
+        },
+        {
+            "nome_exibicao": "Us 103 Usf Mais Prof Mario Ramos",
+            "mes": "2026-05",
+            "total": 1400
+        },
+        {
+            "nome_exibicao": "Us 109 Usf Mais Francisco Pignatari",
+            "mes": "2026-05",
+            "total": 1246
+        },
+        {
+            "nome_exibicao": "Us 171 Usf Mais Joaquim Costa Carvalho",
+            "mes": "2026-05",
+            "total": 2513
+        },
+        {
+            "nome_exibicao": "Us 182 Usf Mais Padre Jose Edwaldo Gomes",
+            "mes": "2026-05",
+            "total": 2358
+        },
+        {
+            "nome_exibicao": "Us 216 Usf Mais Apipucos",
+            "mes": "2026-05",
+            "total": 1381
+        },
+        {
+            "nome_exibicao": "Us 258 Usf Sitio dos Pintos",
+            "mes": "2026-05",
+            "total": 944
+        },
+        {
+            "nome_exibicao": "Us 259 Usf Sitio Sao Braz",
+            "mes": "2026-05",
+            "total": 275
+        },
+        {
+            "nome_exibicao": "Us 260 Usf Mais Corrego da Fortuna",
+            "mes": "2026-05",
+            "total": 2158
+        },
+        {
+            "nome_exibicao": "Us 336 Usf Mais Uniao das Vilas",
+            "mes": "2026-05",
+            "total": 1014
+        }
+    ]
+}

@@ -107,7 +107,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $ip,
                 time()
             ]);
-			header("Location: " . BASE_URL . "/index.php");
+			header("Location: " . BASE_URL . "/home");
          
             exit;
 

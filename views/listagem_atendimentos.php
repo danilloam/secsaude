@@ -1,8 +1,6 @@
 <?php
-
-
 require_once __DIR__ . '/../CORE/bootstrap.php';
-require_once '../func.php';
+include_once __DIR__ . '/../helpers/func.php';
 
 
 $ano = $_GET['ano'] ?? date('Y');

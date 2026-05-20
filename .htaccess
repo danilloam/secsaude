@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# evita conflito com arquivos/pastas reais
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# rota principal
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?view=$1 [QSA,L]
